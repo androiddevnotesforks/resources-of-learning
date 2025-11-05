@@ -696,6 +696,10 @@ JAX-RS
 
 > A high performance, open source universal RPC framework.
 
+>gRPC has been widely adopted for building microservices and cloud native applications.
+
+>gRPC is most commonly used for building internal service-to-service communications.
+
 - [gRPC](https://grpc.io/)
 - gRPC: Up and Running: Building Cloud Native Applications with Go and Java for Docker and Kubernetes (2020) by Kasun Indrasiri and Danesh Kuruppu [3.61, 113]
 - gRPC Microservices in Go (2023) by Hüseyin Babal [3.95, 21]
@@ -992,7 +996,7 @@ For HBase
 
 Microservices Architecture Design
 
-- Reference [CS software development and engineering - Architecture Design](_cs-software-development-and-engineering.md#archdes_t)
+- Reference [CS software development and engineering - Architecture Design, Microservices Architecture](_cs-software-development-and-engineering.md#microservices-architecture)
 
 Middleware - Microservices Collaboration
 
