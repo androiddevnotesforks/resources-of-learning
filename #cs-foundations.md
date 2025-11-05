@@ -160,6 +160,8 @@ Advanced
   - Vol 6: The Theory of Context-Free Languages (Planned)
   - Vol 7:  Compiler Techniques (Planned)
 - Classic Computer Science Problems in Java by David Kopec
+- Advanced Algorithms and Data Structures (2021) by Marcello La Rocca. Introduces a collection of algorithms for complex programming challenges in data analysis, machine learning, and graph computing. You’ll discover cutting-edge approaches to a variety of tricky scenarios.
+- Algorithms and Data Structures for Massive Datasets (2022) by Dzejla Medjedovic, Emin Tahirovic
 
 Others
 

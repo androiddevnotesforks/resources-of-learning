@@ -1075,20 +1075,6 @@ Logto
 - The Creative Destruction of Medicine: How the Digital Revolution Will Create Better Health Care by Eric J. Topol
 - Bringing Down the House: The Inside Story of Six M.I.T. Students Who Took Vegas for Millions by Ben Mezrich 
 
-### Introduction to Data Science
-
-- Data Science from Scratch by Joel Grus
-- Machine Learning: An Introduction Math Guide for Beginners to Understand Data Science Through the Business Applications by Samuel Hack
-- Doing Data Science: Straight Talk from the Frontline by Cathy O'Neil and Rachel Schutt
-- Data Science for Business: What you need to know about data mining and data-analytic thinking by Foster Provost
-- How to Lie with Statistics by Darrell Huff
-- Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems by Brian Christian
-- The Ethical Algorithm: The Science of Socially Aware Algorithm Design by Michael Kearns
-- Think Like a Data Scientist: Tackle the data science process step-by-step by Brian Godsey
-- Hello World: Being Human in the Age of Algorithms by Hannah Fry
-- Data Smart: Using Data Science to Transform Information into Insight by John W. Foreman
-- Naked Statistics: Stripping the Dread from the Data by Charles Wheelan
-
 ### Introduction to Data Mining 
 
 /ˈdeɪtə - ˈmʌɪnɪŋ/
@@ -1346,9 +1332,39 @@ AWS Glue / Dataflow
 - Google Vertex AI / AWS SageMaker: Cloud platforms for developing and deploying ML models.
 - RapidMiner / KNIME / Weka: Visual tools for data mining and predictive analytics.
 
+Introduction
+
+- Machine Learning: An Introduction Math Guide for Beginners to Understand Data Science Through the Business Applications by Samuel Hack
+- Doing Data Science: Straight Talk from the Frontline by Cathy O'Neil and Rachel Schutt
+- Data Science for Business: What you need to know about data mining and data-analytic thinking by Foster Provost
+- How to Lie with Statistics by Darrell Huff
+- Algorithms to Live By: What Computers Can Teach Us About Solving Human Problems by Brian Christian
+- The Ethical Algorithm: The Science of Socially Aware Algorithm Design by Michael Kearns
+- Think Like a Data Scientist: Tackle the data science process step-by-step by Brian Godsey
+- Hello World: Being Human in the Age of Algorithms by Hannah Fry
+- Data Smart: Using Data Science to Transform Information into Insight by John W. Foreman
+- Naked Statistics: Stripping the Dread from the Data by Charles Wheelan
+
 Data Science
 
 - Software Engineering for Data Scientists: From Notebooks to Scalable Systems (2024) by Catherine Nelson
+- Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python (2nd, 2020) by Peter Bruce, Andrew Bruce, Peter Gedeck 
+- Data Science from Scratch: First Principles with Python (2nd, 2019) by Joel Grus
+- Python Data Science Handbook: Essential Tools for Working with Data (2nd, 2022) by Jake VanderPlas
+- Dive Into Data Science: Use Python To Tackle Your Toughest Business Challenges (2023) by Bradford Tuckfield 
+- Learning Data Science: Data Wrangling, Exploration, Visualization, and Modeling with Python (2023) by Sam Lau, Joseph Gonzalez, Deborah Nolan
+- Build a Career in Data Science (2020) Emily Robinson (Author), Jacqueline Nolis
+- Python for Data Science: A Hands-On Introduction (2022) by Yuli Vasiliev
+- Data Science: The Hard Parts: Techniques for Excelling at Data Science (2023) by Daniel Vaughan
+- Analytical Skills for AI and Data Science: Building Skills for an AI-Driven Enterprise (2020) by Daniel Vaughan
+- Math
+	- Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics (2022) by Thomas Nield
+	- The Art of Statistics: How to Learn from Data (2019) by David Spiegelhalter 
+	- Practical Linear Algebra for Data Science: From Core Concepts to Applications Using Python (2022) by Mike X Cohen
+- R
+	- R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (2nd, 2023) by Hadley Wickham, Mine Çetinkaya-Rundel, Garrett Grolemund
+	- Tidy Modeling with R: A Framework for Modeling in the Tidyverse (2022) by Max Kuhn, Julia Silge 
+	- Mastering Shiny: Build Interactive Apps, Reports, and Dashboards Powered by R (2021) by Hadley Wickham
 
 Data analysis
 
@@ -1357,6 +1373,7 @@ Data analysis
 - Bayesian Data Analysis by Andrew Gelman
 - Data Analysis Using Regression and Multilevel/Hierarchical Models by Andrew Gelman
 - Python for Data Analysis by Wes McKinney
+- SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights (2021) by Cathy Tanimura
 
 ### Data Analytics & BI
 
@@ -1380,6 +1397,7 @@ Data Visualization
 - Decision Trees and Random Forests: A Visual Introduction For Beginners: A Simple Guide to Machine Learning with Decision Trees by Chris Smith
 - The Truthful Art: Data, Charts, and Maps for Communication by Alberto Cairo
 - Storytelling with Data: A Data Visualization Guide for Business Professionals (2018) by Cole Nussbaumer Knaflic
+- Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks (2021) by Jonathan Schwabish 
 
 Power BI
 
@@ -1531,7 +1549,7 @@ SAS Viya
 ### Introduction to Artificial Intelligence
 
 - Artificial Intelligence: A Modern Approach (4th, 2020) by Stuart Russell, Peter Norvig [4.20, 4421] Introduction to the theory and practice of artificial intelligence.
-- AI and Machine Learning for Coders: A Programmer's Guide to Artificial Intelligence by Laurence Moroney [4.08, 102]
+- AI and Machine Learning for Coders: A Programmer's Guide to Artificial Intelligence by Laurence Moroney [4.08, 102] You'll understand how to implement the most common scenarios in machine learning, such as computer vision, natural language processing (NLP), and sequence modeling for web, mobile, cloud, and embedded runtimes.
 - Grokking Artificial Intelligence Algorithms: Understand and apply the core algorithms of deep learning and artificial intelligence in this friendly illustrated guide including exercises and examples (2020) by Rishal Hurbans [4.00, 77]
 - Introduction to Artificial Intelligence by Philip C. Jackson [3.68, 141]
 - The Elements of Statistical Learning: Data Mining, Inference, and Prediction by Trevor Hastie, Robert Tibshirani, Jerome Friedman
@@ -1569,6 +1587,7 @@ Beginner
 
 Mathematics for Machine Learning
 
+- Essential Math for AI: Next-Level Mathematics for Efficient and Successful AI Systems (2023) by Hala Nelson
 - Mathematics of Machine Learning: Master linear algebra, calculus, and probability for machine learning (2025) by Tivadar Danka
 - Mathematics for Machine Learning (2020) by Marc Peter Deisenroth
 
@@ -1596,9 +1615,9 @@ ML systems / ML Engineering / MLOps
 	- Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines (2024) by Robert Crowe, Hannes Hapke, Emily Caveness, Di Zhu
 	- Machine Learning Engineering with Python: Manage the lifecycle of machine learning models using MLOps with practical examples (2nd, 2023) by Andrew P. McMahon
 - MLOps
-	- Practical MLOps: Operationalizing Machine Learning Models (2021) by Noah Gift (Author), Alfredo Deza 
-	- Introducing MLOps: How to Scale Machine Learning in the Enterprise (2021) by Mark Treveil (Author), Nicolas Omont (Author), Clément Stenac (Author), Kenji Lefevre 
-	- Implementing MLOps in the Enterprise: A Production-First Approach (2024) by Yaron Haviv (Author), Noah Gift 
+	- Practical MLOps: Operationalizing Machine Learning Models (2021) by Noah Gift, Alfredo Deza 
+	- Introducing MLOps: How to Scale Machine Learning in the Enterprise (2021) by Mark Treveil, Nicolas Omont, Clément Stenac, Kenji Lefevre 
+	- Implementing MLOps in the Enterprise: A Production-First Approach (2024) by Yaron Haviv, Noah Gift 
 	- MLOps Engineering at Scale (2022) by Carl Osipov
 	- Engineering MLOps: Rapidly build, test, and manage production-ready machine learning life cycles at scale (2021) by Emmanuel Raj 
 
