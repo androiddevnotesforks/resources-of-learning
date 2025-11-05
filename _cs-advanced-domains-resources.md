@@ -20,10 +20,6 @@
 	- <a name="inforetri_c" href="#inforetri_t">Information Retrieval and Search Engines</a>
 	- <a name="mq_c" href="#mq_t">Message Queues</a>
 	- <a name="ipc_c" href="#ipc_t">Inter-Process Communication</a>
-		- Web Services
-		- REST
-		- GraphQL
-		- Remote Procedure Call (RPC)
 	- <a name="distsys_c" href="#distsys_t">Distributed Systems</a>
 - Part III: Data & Machine Learning
 	- <a name="datamining_c" href="#datamining_t">Big Data and Data Mining</a>
@@ -829,6 +825,7 @@ Red Hat AMQ
 <br>
 <h2><a name="ipc_t" href="#ipc_c">Inter-Process Communication</a></h2>
 <br>
+>Web Services, REST, GraphQL, and Remote Procedure Call (RPC)
 
 ### Web Services
 
