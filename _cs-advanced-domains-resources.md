@@ -9,32 +9,38 @@
 ### Content
 
 - Part I: Developments
-  - <a name="webdev_c" href="#webdev_t">Web Development</a>
-  - <a name="gamedev_c" href="#gamedev_t">Game Development</a>
-  - Mobile Application Development
-  - Desktop Application Development
-  - Embedded Development
-  - <a name="audio_and_video_dev_c" href="#audio_and_video_dev_t">Audio and Video Development</a>
-- Part II: Infrastructures
-  - <a name="dbms_c" href="#dbms_t">Database Systems and Data Storage</a>
-  - <a name="inforetri_c" href="#inforetri_t">Information Retrieval and Search Engines</a>
-  - <a name="web_services_c" href="#web_services_t">Web Services</a>
-  - <a name="rpc_c" href="#rpc_t">Remote Procedure Call (RPC)</a>
-  - <a name="mq_c" href="#mq_t">Message Queues</a>
-  - <a name="infosec_c" href="#infosec_t">Information Security</a>
-  - <a name="distsys_c" href="#distsys_t">Distributed Systems</a>
-  - <a name="cloudcpt_c" href="#cloudcpt_t">Cloud Computing and Serverless</a>
-  - <a name="datamining_c" href="#datamining_t">Big Data and Data Mining</a>
-  - <a name="crawler_c" href="#crawler_t">Crawler and  Anti-Crawler</a>
-- Part III: The Future
-  - <a name="ai_c" href="#ai_t">Artificial Intelligence</a>
-  - <a name="blockchain_c" href="#blockchain_t">Blockchain and Cryptocurrency</a>
-  - Edge Computing
-  - IoT and 5G
-  - Virtual Reality (VR) and Augmented Reality (AR)
-  - Metaverse
-  - <a name="quantcomp_c" href="#quantcomp_t">Quantum Computing</a>
-  - Web 3.0
+	- <a name="webdev_c" href="#webdev_t">Web Development</a>
+	- <a name="gamedev_c" href="#gamedev_t">Game Development</a>
+	- Mobile Application Development
+	- Desktop Application Development
+	- Embedded Development
+	- <a name="audio_and_video_dev_c" href="#audio_and_video_dev_t">Audio and Video Development</a>
+- Part II: Distributed Systems & Middlewares
+	- <a name="dbms_c" href="#dbms_t">Database Systems and Data Storage</a>
+	- <a name="inforetri_c" href="#inforetri_t">Information Retrieval and Search Engines</a>
+	- <a name="mq_c" href="#mq_t">Message Queues</a>
+	- <a name="ipc_c" href="#ipc_t">Inter-Process Communication</a>
+		- Web Services
+		- REST
+		- GraphQL
+		- Remote Procedure Call (RPC)
+	- <a name="distsys_c" href="#distsys_t">Distributed Systems</a>
+- Part III: Data & Machine Learning
+	- <a name="datamining_c" href="#datamining_t">Big Data and Data Mining</a>
+	- <a name="ai_c" href="#ai_t">Artificial Intelligence</a>
+- Part IV: Cloud, Platform, and Infrastructure
+	- <a name="cloudcpt_c" href="#cloudcpt_t">Cloud Computing and Serverless</a>
+- Part V: Specialized Technical Fields
+	- <a name="infosec_c" href="#infosec_t">Information Security</a>
+	- <a name="crawler_c" href="#crawler_t">Crawler and  Anti-Crawler</a>
+	- <a name="blockchain_c" href="#blockchain_t">Blockchain and Cryptocurrency</a>
+	- Web 3.0
+	- IoT and 5G
+	- Edge Computing
+	- Virtual Reality (VR) and Augmented Reality (AR)
+	- <a name="quantcomp_c" href="#quantcomp_t">Quantum Computing</a>
+
+## Part I: Developments
 
 <br>
 
@@ -377,6 +383,9 @@ Audio analysis (AI)
 - GStreamer
 - ZLMediaKit
 
+
+## Part II: Distributed Systems & Middlewares
+
 <br>
 
 <h2><a name="dbms_t" href="#dbms_c">Database Systems and Data Storage</a></h2>
@@ -653,107 +662,6 @@ Kibana
 - Learning Kibana 7: Build powerful Elastic dashboards with Kibana's data visualization capabilities (2nd, 2019) by Anurag Srivastava and Bahaaldine Azarmi
 - Kibana 7 Quick Start Guide: Visualize your Elasticsearch data with ease (2019) by Anurag Srivastava
 
-
-<h2><a name="web_services_t" href="#web_services_c">Web Services</a></h2>
-
-Java RESTful and SOAP Web Services
-
->Java API for RESTful Web Services (JAX-RS): It provides a declarative and intuitive way to build RESTful web services in Java by leveraging annotations to define resource behavior and manage interactions with HTTP requests and responses.
-
->JAX-RS is nothing more than a specification, a set of interfaces and annotations offered by Java EE. And then, of course, we have the implementations; some of the more well known are RESTEasy and Jersey.
-
->Java API for XML Web Services (JAX-WS): It is a Java programming API used for creating web services, particularly SOAP-based services. It is a key part of the Java Platform, Enterprise Edition (Java EE) and later Jakarta EE. 
-
-- [Java Web Services - Java EE Documentation](https://javaee.github.io/tutorial/partwebsvcs.html)
-- Java Web Services: Up and Running: A Quick, Practical, and Thorough Introduction (2nd, 2013) (1st, 2009) by Martin Kalin
-- Java Web Services: Using Java in Service-Oriented Architectures (2002) by David A. Chappell, Tyler Jewell 
-- Java and SOAP (2002) by Robert Englander
-- Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI (2004) by Steve Graham, Doug Davis
-- Java Web Services in a Nutshell (2003) by Kim Topley
-- RESTful Java Web Services: A pragmatic guide to designing and building RESTful APIs using Java(3rd, 2017) by Bogunuva Mohanram Balachandar
-- Professional Java for Web Applications (2014) by Nicholas S. Williams 
-- Jakarta Application Development: Develop Enterprise applications using the latest versions of CDI, Jakarta RESTful Web Services, Jakarta JSON Binding, Jakarta Persistence, Security, and more (2nd, 2024) by David R. Heffelfinger
-- Building RESTful Web Services with Java EE 8: Create modern RESTful web services with the Java EE 8 API (2018) by Mario-Leander Reimer
-- Professional Java Web Services (2001) by Scott Cable, Ben Galbraith
-- Web Services Essentials (2002) by Ethan Cerami
-- Programming Web Services with SOAP: Building Distributed Applications (2009) by Doug Tidwell, James Snell
-
-JAX-RS
-
-- Pro RESTful APIs: Design, Build and Integrate with REST, JSON, XML and JAX-RS (2017) by Sanjay Patni
-- RESTful Java with JAX-RS 2.0: Designing and Developing Distributed Web Services (2013) by Bill Burke
-- Java EE 8 Application Development: Develop Enterprise applications using the latest versions of CDI, JAX-RS, JSON-B, JPA, Security, and more (2017) by David R. Heffelfinger
-
-<br>
-
-<h2><a name="rpc_t" href="#rpc_c">Remote Procedure Call (RPC)</a></h2>
-
-<br>
-
-### gRPC
-
-![GitHub Repo stars](https://img.shields.io/github/stars/grpc/grpc)  ![GitHub last commit](https://img.shields.io/github/last-commit/grpc/grpc)  ![GitHub contributors](https://img.shields.io/github/contributors/grpc/grpc)  ![GitHub Created At](https://img.shields.io/github/created-at/grpc/grpc)
-
-> A high performance, open source universal RPC framework.
-
->gRPC has been widely adopted for building microservices and cloud native applications.
-
->gRPC is most commonly used for building internal service-to-service communications.
-
-- [gRPC](https://grpc.io/)
-- gRPC: Up and Running: Building Cloud Native Applications with Go and Java for Docker and Kubernetes (2020) by Kasun Indrasiri and Danesh Kuruppu [3.61, 113]
-- gRPC Microservices in Go (2023) by Hüseyin Babal [3.95, 21]
-- Modern API Development with Spring 6 and Spring Boot 3: Design scalable, viable, and reactive APIs with REST, gRPC, and GraphQL using Java 17 and Spring Boot 3 (2nd, 2023) by Sourabh Sharma
-
-Some more
-
-- gRPC Go for Professionals: Implement, test, and deploy production-grade microservices (2023) by Clément Jean (Packt Publisher)
-- Modern API Design with gRPC: Efficient Solutions to Design Modern APIs with gRPC Using Golang for Scalable Distributed Systems (2024) by Hitesh Pattanayak
-- Practical gRPC (2018) by Joshua Humphries 
-
-### Apache Thrift
-
-/əˈpatʃi - θrɪft/
-
-![GitHub Repo stars](https://img.shields.io/github/stars/apache/thrift)  ![GitHub last commit](https://img.shields.io/github/last-commit/apache/thrift)  ![GitHub contributors](https://img.shields.io/github/contributors/apache/thrift)  ![GitHub Created At](https://img.shields.io/github/created-at/apache/thrift)
-
-> A lightweight, language-independent software stack for point-to-point RPC implementation.
-
-- [Apache Thrift Documentation](https://thrift.apache.org/docs/)
-- Learning Apache Thrift (2015) by Krzysztof Rakowski
-- Programmer's Guide to Apache Thrift (2019) by William Abernethy
-
-### Apache Dubbo
-
-/əˈpatʃi - ˈdʌbəʊ/
-
-![GitHub Repo stars](https://img.shields.io/github/stars/apache/dubbo)  ![GitHub last commit](https://img.shields.io/github/last-commit/apache/dubbo)  ![GitHub contributors](https://img.shields.io/github/contributors/apache/dubbo)  ![GitHub Created At](https://img.shields.io/github/created-at/apache/dubbo)
-
->Dubbo是阿里巴巴开发的一个开源的高性能、高可用、可扩展的分布式RPC调用框架，致力于提供高性能和透明化的 RPC 远程调用服务解决方案。
-
->简单来说它就是一个RPC框架，但是和普通的RPC框架不同的是，它提供了服务治理功能，比如服务注册、监控、路由、容错等。
-
-- [Apache Dubbo](https://dubbo.apache.org/en/) - A Cloud-Native Microservice Framework.
-- [Dubbo 文档](https://dubbo.apache.org/zh-cn/overview/home/)
-- 深入理解Apache Dubbo与实战 (2019) by 诣极, 林琳
-- 深度剖析Apache Dubbo核心技术内幕 (2019) by 翟陆续（加多）
-
-### Motan
-
-/ˈmoʊtən/
-
->一套高性能、易于使用的分布式远程服务调用(RPC)框架。
-
-- [weibocom/motan](https://github.com/weibocom/motan). A cross-language remote procedure call(RPC) framework for rapid development of high performance distributed services.
-- [Motan Wiki](https://github.com/weibocom/motan/wiki/zh_overview)
-
-### Protobuf
-
->Protocol Buffers - Google's data interchange format
-
-- [Protobuf](https://protobuf.dev/). Protocol Buffers are language-neutral, platform-neutral extensible mechanisms for serializing structured data.
-- Protocol Buffers Handbook: Getting deeper into Protobuf internals and its usage (2024) by Clément Jean
-
 <br>
 
 <h2><a name="mq_t" href="#mq_c">Message Queues</a></h2>
@@ -919,12 +827,106 @@ IBM MQ
 Red Hat AMQ
 
 <br>
-
-<h2><a name="infosec_t" href="#infosec_c">Information Security</a></h2>
-
+<h2><a name="ipc_t" href="#ipc_c">Inter-Process Communication</a></h2>
 <br>
 
-Reference [Information Security Resources](directions/information-security-resources.md)
+### Web Services
+
+Java RESTful and SOAP Web Services
+
+>Java API for RESTful Web Services (JAX-RS): It provides a declarative and intuitive way to build RESTful web services in Java by leveraging annotations to define resource behavior and manage interactions with HTTP requests and responses.
+
+>JAX-RS is nothing more than a specification, a set of interfaces and annotations offered by Java EE. And then, of course, we have the implementations; some of the more well known are RESTEasy and Jersey.
+
+>Java API for XML Web Services (JAX-WS): It is a Java programming API used for creating web services, particularly SOAP-based services. It is a key part of the Java Platform, Enterprise Edition (Java EE) and later Jakarta EE. 
+
+- [Java Web Services - Java EE Documentation](https://javaee.github.io/tutorial/partwebsvcs.html)
+- Java Web Services: Up and Running: A Quick, Practical, and Thorough Introduction (2nd, 2013) (1st, 2009) by Martin Kalin
+- Java Web Services: Using Java in Service-Oriented Architectures (2002) by David A. Chappell, Tyler Jewell 
+- Java and SOAP (2002) by Robert Englander
+- Building Web Services with Java: Making Sense of XML, SOAP, WSDL, and UDDI (2004) by Steve Graham, Doug Davis
+- Java Web Services in a Nutshell (2003) by Kim Topley
+- RESTful Java Web Services: A pragmatic guide to designing and building RESTful APIs using Java(3rd, 2017) by Bogunuva Mohanram Balachandar
+- Professional Java for Web Applications (2014) by Nicholas S. Williams 
+- Jakarta Application Development: Develop Enterprise applications using the latest versions of CDI, Jakarta RESTful Web Services, Jakarta JSON Binding, Jakarta Persistence, Security, and more (2nd, 2024) by David R. Heffelfinger
+- Building RESTful Web Services with Java EE 8: Create modern RESTful web services with the Java EE 8 API (2018) by Mario-Leander Reimer
+- Professional Java Web Services (2001) by Scott Cable, Ben Galbraith
+- Web Services Essentials (2002) by Ethan Cerami
+- Programming Web Services with SOAP: Building Distributed Applications (2009) by Doug Tidwell, James Snell
+
+JAX-RS
+
+- Pro RESTful APIs: Design, Build and Integrate with REST, JSON, XML and JAX-RS (2017) by Sanjay Patni
+- RESTful Java with JAX-RS 2.0: Designing and Developing Distributed Web Services (2013) by Bill Burke
+- Java EE 8 Application Development: Develop Enterprise applications using the latest versions of CDI, JAX-RS, JSON-B, JPA, Security, and more (2017) by David R. Heffelfinger
+
+### Remote Procedure Call (RPC)
+
+#### gRPC
+
+![GitHub Repo stars](https://img.shields.io/github/stars/grpc/grpc)  ![GitHub last commit](https://img.shields.io/github/last-commit/grpc/grpc)  ![GitHub contributors](https://img.shields.io/github/contributors/grpc/grpc)  ![GitHub Created At](https://img.shields.io/github/created-at/grpc/grpc)
+
+> A high performance, open source universal RPC framework.
+
+>gRPC has been widely adopted for building microservices and cloud native applications.
+
+>gRPC is most commonly used for building internal service-to-service communications.
+
+- [gRPC](https://grpc.io/)
+- gRPC: Up and Running: Building Cloud Native Applications with Go and Java for Docker and Kubernetes (2020) by Kasun Indrasiri and Danesh Kuruppu [3.61, 113]
+- gRPC Microservices in Go (2023) by Hüseyin Babal [3.95, 21]
+- Modern API Development with Spring 6 and Spring Boot 3: Design scalable, viable, and reactive APIs with REST, gRPC, and GraphQL using Java 17 and Spring Boot 3 (2nd, 2023) by Sourabh Sharma
+
+Some more
+
+- gRPC Go for Professionals: Implement, test, and deploy production-grade microservices (2023) by Clément Jean (Packt Publisher)
+- Modern API Design with gRPC: Efficient Solutions to Design Modern APIs with gRPC Using Golang for Scalable Distributed Systems (2024) by Hitesh Pattanayak
+- Practical gRPC (2018) by Joshua Humphries 
+
+#### Apache Thrift
+
+/əˈpatʃi - θrɪft/
+
+![GitHub Repo stars](https://img.shields.io/github/stars/apache/thrift)  ![GitHub last commit](https://img.shields.io/github/last-commit/apache/thrift)  ![GitHub contributors](https://img.shields.io/github/contributors/apache/thrift)  ![GitHub Created At](https://img.shields.io/github/created-at/apache/thrift)
+
+> A lightweight, language-independent software stack for point-to-point RPC implementation.
+
+- [Apache Thrift Documentation](https://thrift.apache.org/docs/)
+- Learning Apache Thrift (2015) by Krzysztof Rakowski
+- Programmer's Guide to Apache Thrift (2019) by William Abernethy
+
+#### Apache Dubbo
+
+/əˈpatʃi - ˈdʌbəʊ/
+
+![GitHub Repo stars](https://img.shields.io/github/stars/apache/dubbo)  ![GitHub last commit](https://img.shields.io/github/last-commit/apache/dubbo)  ![GitHub contributors](https://img.shields.io/github/contributors/apache/dubbo)  ![GitHub Created At](https://img.shields.io/github/created-at/apache/dubbo)
+
+>Dubbo是阿里巴巴开发的一个开源的高性能、高可用、可扩展的分布式RPC调用框架，致力于提供高性能和透明化的 RPC 远程调用服务解决方案。
+
+>简单来说它就是一个RPC框架，但是和普通的RPC框架不同的是，它提供了服务治理功能，比如服务注册、监控、路由、容错等。
+
+- [Apache Dubbo](https://dubbo.apache.org/en/) - A Cloud-Native Microservice Framework.
+- [Dubbo 文档](https://dubbo.apache.org/zh-cn/overview/home/)
+- 深入理解Apache Dubbo与实战 (2019) by 诣极, 林琳
+- 深度剖析Apache Dubbo核心技术内幕 (2019) by 翟陆续（加多）
+
+#### Motan
+
+/ˈmoʊtən/
+
+>一套高性能、易于使用的分布式远程服务调用(RPC)框架。
+
+- [weibocom/motan](https://github.com/weibocom/motan). A cross-language remote procedure call(RPC) framework for rapid development of high performance distributed services.
+- [Motan Wiki](https://github.com/weibocom/motan/wiki/zh_overview)
+
+#### Protobuf
+
+>Protocol Buffers - Google's data interchange format
+
+- [Protobuf](https://protobuf.dev/). Protocol Buffers are language-neutral, platform-neutral extensible mechanisms for serializing structured data.
+- Protocol Buffers Handbook: Getting deeper into Protobuf internals and its usage (2024) by Clément Jean
+
+
 
 <br>
 
@@ -1044,64 +1046,7 @@ Logto
 
 - [Logto](https://github.com/logto-io/logto). Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.
 
-<br>
-
-<h2><a name="cloudcpt_t" href="#cloudcpt_c">Cloud Computing and Serverless</a></h2>
-
-<br>
-
-General
-
-- Cloud Computing: Concepts, Technology, Security, and Architecture (2nd, 2023) by Thomas Erl, Eric Monroy
-- The Self-Taught Cloud Computing Engineer: A comprehensive professional study guide to AWS, Azure, and GCP (2023) by Dr. Logan Song
-- Data Pipelines with Apache Airflow (2021) by Bas P. Harenslak, Julian Rutger de Ruiter
-- Architecting Modern Data Platforms: A Guide to Enterprise Hadoop at Scale (2019) by Jan Kunigk, Ian Buss, Paul Wilkinson, Lars George
-
-AWS
-
-- AWS Cloud Projects: Strengthen your AWS skills through practical projects, from websites to advanced AI applications (2024) by Ivo Pinto, Pedro Santos
-- AWS for Solutions Architects: The definitive guide to AWS Solutions Architecture for migrating to, building, scaling, and succeeding in the cloud (2nd, 2023) by Saurabh Shrivastava, Neelanjali Srivastav, Alberto Artasanchez 
-- AWS Security Cookbook: Practical solutions for securing AWS cloud infrastructure with essential services and best practices (2nd, 2024) by Heartin Kanikathottu
-- AWS Cookbook: Recipes for Success on AWS (2022) by John Culkin, Mike Zazon
-- Data Science on AWS: Implementing End-to-End, Continuous AI and Machine Learning Pipelines (2021) by Chris Fregly, Antje Barth
-- Generative AI on AWS: Building Context-Aware Multimodal Reasoning Applications (2023) by Chris Fregly, Antje Barth, Shelbee Eigenbrode
-- AWS for System Administrators: Build, automate, and operate scalable cloud infrastructure on AWS (2nd, 2025) by Marcel Neidinger, Prashant Lakhera
-- System Design on AWS: Building and Scaling Enterprise Solutions (2025) by Jayanth Kumar, Mandeep Singh 
-- Engineering Resilient Systems on AWS: Design, Build, and Test for Resilience 1st Edition (2024) by Kevin Schwarz, Jennifer Moran, Nate Bachmeier
-
-Google Cloud
-
-- Visualizing Google Cloud: 101 Illustrated References for Cloud Engineers and Architects (2022) by Priyanka Vergadia
-- Google Cloud Cookbook: Practical Solutions for Building and Deploying Cloud Services (2021) by Rui Santos Costa, Drew Hodun
-- Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning (2nd, 2022) by Valliappa Lakshmanan
-- Building Serverless Applications with Google Cloud Run: A Real-World Guide to Building Production-Ready Services (2021) by Wietse Venema
-
-Google Cloud CLI
-
-- [Google Cloud CLI documentation](https://cloud.google.com/sdk/docs)
-
-Microsoft Azure
-
-- Azure Cloud Projects: Learn Microsoft Azure through hands-on, real-world projects (2025) by Hamid Sadeghpour Saleh
-- Learning Microsoft Azure: Cloud Computing and Development Fundamentals (2023) by Jonah Carrio Andersson
-- Cloud Native Infrastructure with Azure: Building and Managing Cloud Native Applications (2022) by Nishant Singh, Michael Kehoe 
-- Azure Cookbook: Recipes to Create and Maintain Cloud Solutions in Azure (2023) by Reza Salehi
-- Azure OpenAI Service for Cloud Native Applications: Designing, Planning, and Implementing Generative AI Solutions (2024) by Adrián González Sánchez
-- Azure AI Services at Scale for Cloud, Mobile, and Edge: Building Intelligent Apps with Azure Cognitive Services and Machine Learning (2022) by Simon Bisson, Mary Branscombe, Chris Hoder, Anand Raman
-- Azure for Developers: Implement rich Azure PaaS ecosystems using containers, serverless services, and storage solutions (2nd, 2022) by Kamil Mrzygłód
-
-阿里云
-
-- 阿里云云原生架构实践 (2022) by 阿里集团
-- 阿里云运维架构实践秘籍 (2020) by 驻云科技-乔锐杰
-- 阿里云数字新基建系列
-	- 云数据库架构 (2021) by 朱明
-	- 混合云架构 (2021) by 解国红, 刘怿平, 陈煜文, 罗寒曦
-	- CDN技术架构 (2022) by 阿里云CDN团队
-	- 云服务器运维之Windows篇 by 杨洋
-	- 云原生操作系统Kubernetes (2020) by 罗建龙, 刘中巍, 张城, 黄珂, 苏夏, 高相林, 盛训杰
-- 云存储：释放数据无限价值 (2022) by 阿里云基础产品委员会
-- 企业数字化基石 : 阿里巴巴云计算基础设施实践 (2020) by 高山渊, 蔡德忠, 赵晓雪, 刘礼寅, 刘水旺, 陈义全, 徐波
+## Part III: Data & Machine Learning
 
 <br>
 
@@ -1567,54 +1512,6 @@ SAS Viya
 - [Apache Druid - a high performance real-time analytics database](https://druid.apache.org/)
 - [Apache Pinot - Realtime distributed OLAP datastore](https://pinot.apache.org/)
 
-<br>
-
-<h2><a name="crawler_t" href="#crawler_c">Crawler and Anti-Crawler</a></h2>
-
-<br>
-
-**Web Scraping with Python**
-
-- **Web Scraping with Python** (3rd, 2024) by Ryan Mitchell [4.18, 403]
-- Hands-On Web Scraping with Python: Extract quality data from the web using effective Python techniques (2nd, 2023) by Anish Chapagain
-- Python Automation Cookbook: 75 Python automation ideas for web scraping, data wrangling, and processing Excel, reports, emails, and more (2nd, 2020) by Jaime Buelta 
-- Mining the Social Web: Data Mining Facebook, Twitter, LinkedIn, Instagram, GitHub, and More (3rd, 2019) by Matthew A. Russell and Mikhail Klassen [3.73, 373]
-- Mining Social Media: Finding Stories in Internet Data (2019) by Lam Thuy Vo
-
-Some more
-
-- Getting Structured Data from the Internet: Running Web Crawlers/Scrapers on a Big Data Production Scale (2020) by Jay M. Patel 
-- Practical Web Scraping for Data Science: Best Practices and Examples with Python (2018) by Seppe vanden Broucke and Bart Baesens 
-- Python Web Scraping Cookbook: Over 90 proven recipes to get you scraping with Python, micro services, Docker and AWS (2018) by Michael Heydt
-- Website Scraping with Python: Using BeautifulSoup and Scrapy (2018) by Gábor László Hajba
-- Python 3网络爬虫开发实战 by 崔庆才
-
-**Robots.txt**
-
-- [Robotstxt.org](https://www.robotstxt.org/)
-- [Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
-
-**JavaScript Reverse Engineering & Deobfuscation**
-
-- 反爬虫AST原理与还原混淆实战 by 李岳阳、卓斌
-- JS Deobfuscation Tools
-	- [JavaScript Deobfuscator](https://deobfuscate.io/)
-	- [JSNice](http://jsnice.org/)
-- JS Formatting Tools
-	- Prettier
-	- ESLint
-
-**Android Reverse Engineering**
-
---
-
-
-**Criminal Law**
-
-- 第二百五十三条之一：【侵犯公民个人信息罪】
-- 第二百八十五条：【非法侵入计算机信息系统罪;非法获取计算机信息系统数据、非法控制计算机信息系统罪;提供侵入、非法控制计算机信息系统程序、工具罪】
-- 第二百八十六条：【破坏计算机信息系统罪】
-- [明确越界网络爬虫行为的刑事处罚边界](https://www.spp.gov.cn/spp/llyj/202202/t20220215_544538.shtml)
 
 <br>
 
@@ -2061,6 +1958,128 @@ Highly-cited or most influential AI/ML papers
 Resources
 
 - [awesome-AI-books](https://github.com/zslucky/awesome-AI-books)
+
+
+## Part IV: Cloud, Platform, and Infrastructure
+
+<br>
+
+<h2><a name="cloudcpt_t" href="#cloudcpt_c">Cloud Computing and Serverless</a></h2>
+
+<br>
+
+General
+
+- Cloud Computing: Concepts, Technology, Security, and Architecture (2nd, 2023) by Thomas Erl, Eric Monroy
+- The Self-Taught Cloud Computing Engineer: A comprehensive professional study guide to AWS, Azure, and GCP (2023) by Dr. Logan Song
+- Data Pipelines with Apache Airflow (2021) by Bas P. Harenslak, Julian Rutger de Ruiter
+- Architecting Modern Data Platforms: A Guide to Enterprise Hadoop at Scale (2019) by Jan Kunigk, Ian Buss, Paul Wilkinson, Lars George
+
+AWS
+
+- AWS Cloud Projects: Strengthen your AWS skills through practical projects, from websites to advanced AI applications (2024) by Ivo Pinto, Pedro Santos
+- AWS for Solutions Architects: The definitive guide to AWS Solutions Architecture for migrating to, building, scaling, and succeeding in the cloud (2nd, 2023) by Saurabh Shrivastava, Neelanjali Srivastav, Alberto Artasanchez 
+- AWS Security Cookbook: Practical solutions for securing AWS cloud infrastructure with essential services and best practices (2nd, 2024) by Heartin Kanikathottu
+- AWS Cookbook: Recipes for Success on AWS (2022) by John Culkin, Mike Zazon
+- Data Science on AWS: Implementing End-to-End, Continuous AI and Machine Learning Pipelines (2021) by Chris Fregly, Antje Barth
+- Generative AI on AWS: Building Context-Aware Multimodal Reasoning Applications (2023) by Chris Fregly, Antje Barth, Shelbee Eigenbrode
+- AWS for System Administrators: Build, automate, and operate scalable cloud infrastructure on AWS (2nd, 2025) by Marcel Neidinger, Prashant Lakhera
+- System Design on AWS: Building and Scaling Enterprise Solutions (2025) by Jayanth Kumar, Mandeep Singh 
+- Engineering Resilient Systems on AWS: Design, Build, and Test for Resilience 1st Edition (2024) by Kevin Schwarz, Jennifer Moran, Nate Bachmeier
+
+Google Cloud
+
+- Visualizing Google Cloud: 101 Illustrated References for Cloud Engineers and Architects (2022) by Priyanka Vergadia
+- Google Cloud Cookbook: Practical Solutions for Building and Deploying Cloud Services (2021) by Rui Santos Costa, Drew Hodun
+- Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning (2nd, 2022) by Valliappa Lakshmanan
+- Building Serverless Applications with Google Cloud Run: A Real-World Guide to Building Production-Ready Services (2021) by Wietse Venema
+
+Google Cloud CLI
+
+- [Google Cloud CLI documentation](https://cloud.google.com/sdk/docs)
+
+Microsoft Azure
+
+- Azure Cloud Projects: Learn Microsoft Azure through hands-on, real-world projects (2025) by Hamid Sadeghpour Saleh
+- Learning Microsoft Azure: Cloud Computing and Development Fundamentals (2023) by Jonah Carrio Andersson
+- Cloud Native Infrastructure with Azure: Building and Managing Cloud Native Applications (2022) by Nishant Singh, Michael Kehoe 
+- Azure Cookbook: Recipes to Create and Maintain Cloud Solutions in Azure (2023) by Reza Salehi
+- Azure OpenAI Service for Cloud Native Applications: Designing, Planning, and Implementing Generative AI Solutions (2024) by Adrián González Sánchez
+- Azure AI Services at Scale for Cloud, Mobile, and Edge: Building Intelligent Apps with Azure Cognitive Services and Machine Learning (2022) by Simon Bisson, Mary Branscombe, Chris Hoder, Anand Raman
+- Azure for Developers: Implement rich Azure PaaS ecosystems using containers, serverless services, and storage solutions (2nd, 2022) by Kamil Mrzygłód
+
+阿里云
+
+- 阿里云云原生架构实践 (2022) by 阿里集团
+- 阿里云运维架构实践秘籍 (2020) by 驻云科技-乔锐杰
+- 阿里云数字新基建系列
+	- 云数据库架构 (2021) by 朱明
+	- 混合云架构 (2021) by 解国红, 刘怿平, 陈煜文, 罗寒曦
+	- CDN技术架构 (2022) by 阿里云CDN团队
+	- 云服务器运维之Windows篇 by 杨洋
+	- 云原生操作系统Kubernetes (2020) by 罗建龙, 刘中巍, 张城, 黄珂, 苏夏, 高相林, 盛训杰
+- 云存储：释放数据无限价值 (2022) by 阿里云基础产品委员会
+- 企业数字化基石 : 阿里巴巴云计算基础设施实践 (2020) by 高山渊, 蔡德忠, 赵晓雪, 刘礼寅, 刘水旺, 陈义全, 徐波
+
+
+## Part V: Specialized Technical Fields
+
+<br>
+
+<h2><a name="infosec_t" href="#infosec_c">Information Security</a></h2>
+
+<br>
+
+Reference [Information Security Resources](directions/information-security-resources.md)
+
+<br>
+
+<h2><a name="crawler_t" href="#crawler_c">Crawler and Anti-Crawler</a></h2>
+
+<br>
+
+**Web Scraping with Python**
+
+- **Web Scraping with Python** (3rd, 2024) by Ryan Mitchell [4.18, 403]
+- Hands-On Web Scraping with Python: Extract quality data from the web using effective Python techniques (2nd, 2023) by Anish Chapagain
+- Python Automation Cookbook: 75 Python automation ideas for web scraping, data wrangling, and processing Excel, reports, emails, and more (2nd, 2020) by Jaime Buelta 
+- Mining the Social Web: Data Mining Facebook, Twitter, LinkedIn, Instagram, GitHub, and More (3rd, 2019) by Matthew A. Russell and Mikhail Klassen [3.73, 373]
+- Mining Social Media: Finding Stories in Internet Data (2019) by Lam Thuy Vo
+
+Some more
+
+- Getting Structured Data from the Internet: Running Web Crawlers/Scrapers on a Big Data Production Scale (2020) by Jay M. Patel 
+- Practical Web Scraping for Data Science: Best Practices and Examples with Python (2018) by Seppe vanden Broucke and Bart Baesens 
+- Python Web Scraping Cookbook: Over 90 proven recipes to get you scraping with Python, micro services, Docker and AWS (2018) by Michael Heydt
+- Website Scraping with Python: Using BeautifulSoup and Scrapy (2018) by Gábor László Hajba
+- Python 3网络爬虫开发实战 by 崔庆才
+
+**Robots.txt**
+
+- [Robotstxt.org](https://www.robotstxt.org/)
+- [Introduction to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+
+**JavaScript Reverse Engineering & Deobfuscation**
+
+- 反爬虫AST原理与还原混淆实战 by 李岳阳、卓斌
+- JS Deobfuscation Tools
+	- [JavaScript Deobfuscator](https://deobfuscate.io/)
+	- [JSNice](http://jsnice.org/)
+- JS Formatting Tools
+	- Prettier
+	- ESLint
+
+**Android Reverse Engineering**
+
+--
+
+
+**Criminal Law**
+
+- 第二百五十三条之一：【侵犯公民个人信息罪】
+- 第二百八十五条：【非法侵入计算机信息系统罪;非法获取计算机信息系统数据、非法控制计算机信息系统罪;提供侵入、非法控制计算机信息系统程序、工具罪】
+- 第二百八十六条：【破坏计算机信息系统罪】
+- [明确越界网络爬虫行为的刑事处罚边界](https://www.spp.gov.cn/spp/llyj/202202/t20220215_544538.shtml)
 
 <br>
 
