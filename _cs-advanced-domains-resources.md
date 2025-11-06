@@ -1322,6 +1322,8 @@ AWS Glue / Dataflow
 
 >Discover patterns, build predictive models, and extract insights.
 
+Data Science tech stack
+
 - Python / R: Core programming languages for analytics and ML.
 - scikit-learn: Python library for classical machine learning algorithms.
 - TensorFlow / PyTorch: Frameworks for deep learning and neural networks.
