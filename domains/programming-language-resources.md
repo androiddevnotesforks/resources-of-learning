@@ -714,6 +714,10 @@ Tools
 - **D** is a general-purpose programming language with static typing, systems-level access, and C-like syntax. With the D Programming Language, write fast, read fast, and run fast.
 - The D Programming Language by Andrei Alexandrescu
 
+### Programming Languages with a Steep Learning Curve
+
+Refer to [Programming with Steep Learning Curve](./programming-steep-learning-curve.md)
+
 ### Ranking
 
 **Programming Languages Ranking**
