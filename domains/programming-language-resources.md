@@ -352,13 +352,33 @@ Google Chrome
 
 **One codebase for all platforms** (web, mobile, desktop)
 
+<details>
+<summary>跨平台技术选型</summary>
+
+Flutter 和 RN 选一个，KMP 不要选，目前不成熟，生态也不全，用了就是当小白鼠；RN 可以热更新，但是使用的组件还是原生组件，一致性不如 Flutter；而且也要结合你的项目内容，如果有一些比较吃性能的功能，还是得用原生开发。
+
+跨平台还是 flutter 吧，生态比较强。
+
+跨平台应用开发语言里面和 Java 语法最像的还是 Dart ，所以选 Flutter 。
+
+Kotlin Multiplatform (KMP) 似乎还不是很成熟。
+
+其实对于 java 来说，转 kotlin 用 kmp 那一套最简单，但是 kmp 现在还是不温不火的，生态也一般。综合来看，还是得 flutter。
+
+我个人也推荐 flutter ，不过现在有 AI 的话，其实原生 swift 和 kotlin 应该学习成本也不大。
+
+以前我肯定会推荐 Flutter ，RN ，但是现在我只推荐原生，因为跨平台你无论怎么搞，天花板之上都是原生，这个天花板总有一天会让你痛不欲生，但是原生则不存在这个问题。跨平台技术还有一个致命的问题是，如果原生 api 更新了，那么跨平台技术需要时间适配，这个适配的时间你只能等，你吃的永远是二手的饭。
+
+</details>
+
 - JavaScript/TypeScript
-	- [React Native](https://reactnative.dev/) (2015) by Meta
+	- [React Native (RN)](https://reactnative.dev/) (2015) by Meta
 	- [Tauri](https://tauri.app/) (2020)
 	- [Ionic](https://ionicframework.com/) (2013)
 	- [Progressive Web Apps (PWA)](https://web.dev/explore/progressive-web-apps) (2016) by Google
 	- [Apache Cordova](https://cordova.apache.org/) / PhoneGap (2009)
 	- [Quasar Framework](https://quasar.dev/) (2015)
+	- WebView. Use WebView to deliver a web application or a web page as a part of a client application. 
 - Dart
 	- [Flutter](https://flutter.dev/) (2017) by Google
 - C#
@@ -369,7 +389,7 @@ Google Chrome
 - Java
 	- [JavaFX](https://openjfx.io/) (2008) by Oracle
 - Kotlin
-	- [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) (2023) by JetBrains
+	- [Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html) (2023) by JetBrains
 - C++
 	- [Qt](https://www.qt.io/) (1995)
 - Python
@@ -834,6 +854,7 @@ Libraries & Tools
 	- Extension
 		- [markmap](https://github.com/markmap/markmap). Visualize your Markdown as mindmaps. [CLI, Lib]
 		- [mermaid](https://github.com/mermaid-js/mermaid). Generate diagrams from markdown-like text. [Lib, Plugin]
+		- [KaTeX](https://github.com/KaTeX/KaTeX). A fast, easy-to-use JavaScript library for TeX math rendering on the web. [CLI, Lib]
 	- Editor
 		- [tui.editor](https://github.com/nhn/tui.editor). Markdown WYSIWYG Editor. GFM Standard + Chart & UML Extensible. [Lib]
 		- [editor.md](https://github.com/pandao/editor.md). The open source embeddable online markdown editor (component). [Lib]
