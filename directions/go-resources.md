@@ -132,6 +132,7 @@ Resources
 
 - [gotraining - GitHub](https://github.com/ardanlabs/gotraining/tree/master/topics/go)
 - [awesome-go - GitHub](https://github.com/avelino/awesome-go)
+- [Go Proverbs](https://go-proverbs.github.io/)
 
 ## Utility Libraries
 

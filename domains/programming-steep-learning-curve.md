@@ -1,4 +1,4 @@
-# Programming with Steep Learning Curve
+# Programming with a Steep Learning Curve
 
 ## Programming Languages with a Steep Learning Curve
 
