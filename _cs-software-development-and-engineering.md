@@ -980,30 +980,30 @@ Components
 - **Namespaces** provide isolation and access control, so that each microservice can control the degree to which other services interact with it.
 - **Ingress objects** provide an easy-to-use frontend that can combine multiple microservices into a single externalized API surface area.
 
-##### Installing Kubernetes
+**Installing Kubernetes**
 
-**Kubernetes for Local Development**
+1\. Kubernetes for Local Development
 
 - Enable Kubernetes in Docker Desktop or Orbstack.
 - [minikube](https://minikube.sigs.k8s.io/docs/). minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.
 - [kind](https://kind.sigs.k8s.io/) (**K**ubernetes **in** **D**ocker). kind is a tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
-**Installing Kubernetes**
+2\. Installing Kubernetes
 
 - [kubernetes-the-hard-way](https://github.com/kelseyhightower/Kubernetes-the-hard-way). Bootstrap Kubernetes the hard way. No scripts.
 
-**Enterprise-quality self-managed Kubernetes distribution**
+3\. Enterprise-quality self-managed Kubernetes distribution
 
 - [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [Rancher](https://www.rancher.com/)
 
-**Kubernetes as a Service (KaaS)**
+4\. Kubernetes as a Service (KaaS)
 
 Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 
-##### Interacting with Kubernetes
+**Interacting with Kubernetes**
 
-**kubectl**
+1\. kubectl
 
 /kube-control/ or /kube-cuddle/
 
@@ -1012,17 +1012,15 @@ Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 - [kubectl Docks](https://kubernetes.io/docs/reference/kubectl/)
 - [kubectl command Docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
 
-**IntelliJ IDEA Kubernetes Plugin**
+2\. IntelliJ IDEA Kubernetes Plugin
 
 - [IntelliJ IDEA Kubernetes Plugin Documentation](https://www.jetbrains.com/help/idea/kubernetes.html)
 
-**Kubernetes Dashboard**
+3\. Kubernetes management UI
 
->Note that the functionality of the dashboard may lag significantly behind `kubectl`.
-
-- [Kubernetes Dashboard](https://github.com/kubernetes/dashboard). General-purpose web UI for Kubernetes clusters
-
-##### Kubernetes Tools
+- [Lens](https://k8slens.dev/). The Most Popular IDE for Kubernetes, Now with Built-in AI.
+- [K9s](https://k9scli.io/). Kubernetes CLI To Manage Your Clusters In Style!
+- [Kubernetes Dashboard](https://github.com/kubernetes/dashboard). General-purpose web UI for Kubernetes clusters. Note that the functionality of the dashboard may lag significantly behind `kubectl`.
 
 **Cloud Native Computing Foundation (CNCF)**
 
@@ -1032,6 +1030,13 @@ Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 
 - [Graduated and Incubating Projects - CNCF](https://www.cncf.io/projects/)
 
+#### K8S Ecosystem
+
+##### Management Tools
+
+- **Helm**: The package manager for Kubernetes. It uses "Charts" to define, install, and upgrade even complex applications in a reusable, version-controlled way.
+- **Kustomize**: A configuration management tool that allows you to customize raw, template-free YAML files for multiple environments (like staging and production) without altering the original manifests. It's often built directly into `kubectl`.
+
 **Helm**
 
 >The package manager for Kubernetes. Helm is the best way to find, share, and use software built for Kubernetes.
@@ -1039,7 +1044,13 @@ Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 - [Helm Documentation](https://helm.sh/)
 - Learning Helm: Managing Apps on Kubernetes (2021) by Matt Butcher, Matt Farina, Josh Dolitsky
 
-**GitOps with K8s**
+##### CI/CD and GitOps
+
+>Automate the process of getting applications deployed and updated on Kubernetes.
+
+**GitOps**
+
+>GitOps is a practice where the desired state of the cluster is stored in a Git repository, and an automated process syncs the cluster to that state.
 
 >GitOps is a set of practices for managing infrastructure and application configurations to expand upon existing processes and improve the application lifecycle.
 
@@ -1047,33 +1058,48 @@ Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 
 >When you adopt GitOps, changes to production are made entirely via pushes to a Git repository, which are then reflected into your cluster via automation.
 
+GitOps
+
 - Implementing GitOps with Kubernetes: Automate, manage, scale, and secure infrastructure and cloud-native applications on AWS and Azure (2024) by Pietro Libro, Artem Lajko
-- Argo CD: Up and Running: A Hands-On Guide to GitOps and Kubernetes (2025) by Andrew Block and Christian Hernandez
 - GitOps Cookbook: Kubernetes Automation in Practice (2023) by Natale Vinto and Alex Soto Bueno
 - OpenShift Multi-Cluster Management Handbook: Go from architecture to pipelines using GitOps (2022) by Giovanni Fontana , Rafael Pecora
 - GitOps and Kubernetes: Continuous Deployment with Argo CD, Jenkins X, and Flux (2021) by Billy Yuen , Alex Matyushentsev
 - Practical GitOps: Infrastructure Management Using Terraform, AWS, and GitHub Actions (2022) by Rohit Salecha
+
+GitOps tools
+
+- **Argo CD**: A declarative **GitOps continuous delivery** tool that automates application deployment to Kubernetes based on configurations stored in Git.
+- **Flux**: A set of GitOps tools for continuous and progressive delivery, which automatically ensures the state of a cluster matches the configuration in Git.
+- **Jenkins/GitLab CI/CD**: General-purpose CI/CD tools that can be **integrated** with `kubectl`, Helm, or GitOps tools to build, test, and deploy container images to Kubernetes.
+
+Argo CD
+
+- Argo CD: Up and Running: A Hands-On Guide to GitOps and Kubernetes (2025) by Andrew Block and Christian Hernandez
 - Argo CD in Practice: The GitOps way of managing cloud-native applications (2022) by Liviu Costea , Spiros Economakis
-
-#### Cloud Native Applications with K8s
-
-- Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Systems Using Kubernetes (2nd, 2025) by Brendan Burns
-- Cloud Application Architecture Patterns: Designing, Building, and Modernizing for the Cloud (2025) by Kyle Brown, Bobby Woolf, Joseph Yoder 
-- Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications (2019) by Boris Scholl , Trent Swanson
 
 ##### Service Mesh
 
->Istio, Linkerd, Kuma, App Mesh and Consul
+>For advanced networking, traffic management, and observability between services.
+
+>A service mesh is an infrastructure layer that facilitates service-to-service communication in microservices architectures. Istio is a popular, open-source implementation of a service mesh, providing features like traffic management, security, and observability.
+
+**Service Mesh**
 
 - Mastering Service Mesh: Enhance, secure, and observe cloud-native applications with Istio, Linkerd, and Consul (2020) by Anjali Khatri , Vikram Khatri
+
+Service Mesh frameworks
+
+- **Istio**: Full-featured service mesh with traffic control and security. Popularity wise, is the current leader in service mesh space. Features-wise, it's the most powerful and advanced mesh. The **most popular** service mesh framework.
+- **Linkerd**: Lightweight, performance-focused service mesh. the most performant and focused service mesh out there. It’s intentionally small, with carefully selected feature set, convenient dashboard and a strong focus on doing just enough. Production-ready **lightweight** service mesh.
+- **Kuma**: Simpler service mesh frameworks. It is one of the newest service meshes, aimed at solving many of the mistakes other meshes did. It was built in response to the previous service mesh frameworks’ issue of being heavy and difficult to manage or operate.
+- **AWS App Mesh**, which is a fully managed service mesh intended for Amazon-specific services.
+- **Consul Connect**: HashiCorp’s service mesh with service discovery. It is probably the most mature simply because of Consul. Consul is a decade old , polished technology, battle tested in huge production environments. It’s a safe choice in terms of stability and features. There is only one problem with Consul Connect: it’s a not a purpose-built cloud native service mesh, but rather a service mesh built on top of Consul. 
 
 **Istio**
 
 /ISS-tee-oh/
 
 >Istio extends Kubernetes to establish a programmable, application-aware network. Working with both Kubernetes and traditional workloads, Istio brings standard, universal traffic management, telemetry, and security to complex deployments.
-
->A service mesh is an infrastructure layer that facilitates service-to-service communication in microservices architectures. Istio is a popular, open-source implementation of a service mesh, providing features like traffic management, security, and observability.
 
 - [Istio Documentation](https://istio.io/latest/docs/)
 - Istio: Up and Running: Using a Service Mesh to Connect, Secure, Control, and Observe (2019) by Lee Calcote, Zack Butcher
@@ -1087,13 +1113,11 @@ Refer to [Kubernetes as a Service (KaaS)](#xaas_t)
 - Linkerd on Kubernetes: Enhance, secure, and observe cloud native applications deployed in Kubernetes with Linkerd (2024) by Donald Lutz
 
 
-Istio, Linkerd, Kuma, App Mesh and Consul
+#### Cloud Native Applications with K8s
 
-- **Istio**, popularity wise, is the current leader in service mesh space. Features-wise, it's the most powerful and advanced mesh. The **most popular** service mesh framework.
-- **Linkerd** is the most performant and focused service mesh out there. It’s intentionally small, with carefully selected feature set, convenient dashboard and a strong focus on doing just enough. Production-ready **lightweight** service mesh.
-- **Kuma** is one of the newest service meshes, aimed at solving many of the mistakes other meshes did. It was built in response to the previous service mesh frameworks’ issue of being heavy and difficult to manage or operate.
-- **AWS App Mesh**, which is a fully managed service mesh intended for Amazon-specific services.
-- **Consul Connect** is probably the most mature simply because of Consul. Consul is a decade old , polished technology, battle tested in huge production environments. It’s a safe choice in terms of stability and features. There is only one problem with Consul Connect: it’s a not a purpose-built cloud native service mesh, but rather a service mesh built on top of Consul. 
+- Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Systems Using Kubernetes (2nd, 2025) by Brendan Burns
+- Cloud Application Architecture Patterns: Designing, Building, and Modernizing for the Cloud (2025) by Kyle Brown, Bobby Woolf, Joseph Yoder 
+- Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications (2019) by Boris Scholl , Trent Swanson
 
 ##### Dapr
 
@@ -1101,7 +1125,7 @@ Istio, Linkerd, Kuma, App Mesh and Consul
 
 >A portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
 
-- [Dapr Docs](https://docs.dapr.io/?_gl=1*hfgkwm*_ga*NzA1NDA4ODI1LjE3NTI2NzIwNDE.*_ga_60C6Q1ETC1*czE3NTI2NzIwNDAkbzEkZzEkdDE3NTI2NzIzMDIkajYwJGwwJGgw)
+- [Dapr Docs](https://docs.dapr.io/)
 - Learning Dapr: Building Distributed Cloud Native Applications (2020) by Haishi Bai and Yaron Schneider
 - Practical Microservices with Dapr and .NET: A developer's guide to building cloud-native applications using the event-driven runtime (2nd, 2022) by Davide Bedin
 - Introducing Distributed Application Runtime (Dapr): Simplifying Microservices Applications Development Through Proven and Reusable Patterns and Practices (2021) by Radoslav Gatev
@@ -1609,7 +1633,7 @@ Appium
 
 >Performance testing evaluates the software's performance under various conditions, such as high user loads or heavy data inputs. It helps identify bottlenecks, measure response times, and ensure the software can handle expected workloads.
 
->Load testing is a subset of performance testing. Performance testing encompasses a wider range of evaluations, while load testing specifically examines the system's capacity and behavior under defined user loads.
+>Load testing is a subset of performance testing. Performance testing encompasses a wider range of evaluations, while load testing specifically examines the system's capacity and behavior under defined user loads.
 
 **Apache JMeter**
 
