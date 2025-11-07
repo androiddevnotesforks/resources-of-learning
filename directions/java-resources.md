@@ -731,6 +731,7 @@ Components
 - Java Microservices and Containers in the Cloud: With Spring Boot, Kafka, PostgreSQL, Kubernetes, Helm, Terraform and AWS EKS (2024) by Binildas A. Christudas 
 - Hands-On Microservices with Spring Boot and Spring Cloud: Build and deploy Java microservices using Spring Cloud, Istio, and Kubernetes (2019) by Magnus Larsson
 - Modernizing Enterprise Java: A Concise Cloud Native Guide for Developers (2021) by Markus Eisele, Natale Vinto (Publisher: O'Reilly)
+- Microservices Security in Action: Design Secure Network and API Endpoint Security for Microservices Applications, with Examples Using Java, Kubernetes, and Istio (2021) by Prabath Siriwardena, Nuwan Dias
 
 Courses
 

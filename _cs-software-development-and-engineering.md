@@ -466,7 +466,7 @@ Some more
 - Java Application Architecture: Modularity Patterns with Examples Using OSGi (2012) by Kirk Knoernschild [3.91, 87]
 - Foundations of Scalable Systems by Ian Gorton [4.19, 80]
 - Software Architecture: Foundations, Theory, and Practice (2009) by Richard N. Taylor [3.83, 71]
-- Head First Software Architecture: A Learner's Guide to Architectural Thinking (2024) by Raju Gandhi (Author), Mark Richards (Author), Neal Ford [3.80, 69]
+- Head First Software Architecture: A Learner's Guide to Architectural Thinking (2024) by Raju Gandhi, Mark Richards, Neal Ford [3.80, 69]
 - Web Application Architecture: Principles, Protocols and Practices (2009) by Leon Shklar [3.76, 50]
 - System Architecture: Strategy and Product Development for Complex Systems (2015) by Bruce Cameron, Daniel Selva, and Edward F. Crawley [4.38, 50]
 - Architecture Modernization - Socio-technical alignment of software, strategy, and structure by Nick Tune [4.11, 47]
@@ -1103,7 +1103,8 @@ Service Mesh frameworks
 
 - [Istio Documentation](https://istio.io/latest/docs/)
 - Istio: Up and Running: Using a Service Mesh to Connect, Secure, Control, and Observe (2019) by Lee Calcote, Zack Butcher
-- Istio in Action (2022) by Christian E. Posta (Author), Rinor Maloku
+- Istio in Action (2022) by Christian E. Posta, Rinor Maloku
+- Practical Istio: Learn Istio Service Mesh, Microservices, and Cloud-Native Architecture for Optimal Performance (2025) by Prashanth Josyula, Karanbir Singh, Anupam Mehta
 - Bootstrapping Service Mesh Implementations with Istio: Build reliable, scalable, and secure microservices on Kubernetes with Service Mesh (2023) by Anand Rai 
 - Getting Started with Istio Service Mesh: Manage Microservices in Kubernetes (2019) by Rahul Sharma and Avinash Singh
 
@@ -1244,7 +1245,7 @@ InfluxDB
 
 Books
 
-- Distributed Tracing in Practice: Instrumenting, Analyzing, and Debugging Microservices (2020) by Austin Parker (Author), Daniel Spoonhower, Jonathan Mace
+- Distributed Tracing in Practice: Instrumenting, Analyzing, and Debugging Microservices (2020) by Austin Parker, Daniel Spoonhower, Jonathan Mace
 
 ### Alerting & Incident Management
 
@@ -1278,7 +1279,7 @@ AWS CloudWatch, Azure Monitor, Google Cloud Operations (Stackdriver)
 - **Software Engineering at Google: Lessons Learned from Programming Over Time** (2020) by Titus Winters, Tom Manshreck, Hyrum Wright
 - Software Engineering: A Practitioner's Approach by Roger S. Pressman
 - The Essence of Software Engineering by Volker Gruhn and Rüdiger Striemer
-- Fundamentals of Software Engineering: From Coder to Engineer (2025) by Nathaniel Schutta (Author), Dan Vega
+- Fundamentals of Software Engineering: From Coder to Engineer (2025) by Nathaniel Schutta, Dan Vega
 
 Modern Software Engineering
 
@@ -1305,7 +1306,7 @@ Modern Software Engineering
 - Code That Fits in Your Head: Heuristics for Software Engineering by Mark Seemann
 - Code Ahead: Volume 1 (2018) by Yegor Bugayenko
 - 201 Principles of Software Development by Alan M. Davis
-- Head First Software Development: A Learner's Companion to Software Development (2008) by Dan Pilone (Author), Russ Miles [4.00, 370]
+- Head First Software Development: A Learner's Companion to Software Development (2008) by Dan Pilone, Russ Miles [4.00, 370]
 
 <h2><a name="spm_t" href="#spm_c">Software Project Management</a></h2>
 
@@ -1802,7 +1803,7 @@ Coding Interview (Algorithms)
 	- [Programming Skills - Study Plan](https://leetcode.com/studyplan/programming-skills/). Excel Implementation Skills in 50 Qs.
 	- [力扣热题 HOT 100](https://leetcode.cn/problem-list/2cktkvj/)
 - Cracking the Coding Interview: 189 Programming Questions and Solutions (2015) by Gayle Laakmann McDowell  《程序员面试金典》
-- Coding Interview Patterns: Nail Your Next Coding Interview (2024) by Alex Xu (Author), Shaun Gunawardane
+- Coding Interview Patterns: Nail Your Next Coding Interview (2024) by Alex Xu, Shaun Gunawardane
 - Programming Pearls (2nd, 1999)  by Jon Bentley
 - Dynamic Programming for Coding Interviews by Meenakshi and Kamal Rawat
 - Algorithms for Interviews by Adnan Aziz and Amit Prakash
