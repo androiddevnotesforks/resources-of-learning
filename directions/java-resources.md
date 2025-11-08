@@ -518,6 +518,9 @@ Spring Boot 2.x
 - Pro Java Microservices with Quarkus and Kubernetes: A Hands-on Guide (2021) by Nebrass Lamouchi 
 - Hands-On Cloud-Native Applications with Java and Quarkus: Build high performance, Kubernetes-native Java serverless applications (2019) by Francesco Marchioni and Mark Little
 
+#### JHipster
+
+- [JHipster](https://www.jhipster.tech/). A development platform to quickly generate, develop, and deploy modern web applications & microservice architectures.
 
 #### More Web Frameworks
 
@@ -528,6 +531,10 @@ Spring Boot 2.x
 - [Vert.x](https://vertx.io/). Reactive applications on the JVM.
 - [Vert.x Documentation](https://vertx.io/docs/)
 - Vert.x in Action: Asynchronous and Reactive Java (2020) by Julien Ponge
+
+**Play Framework**
+
+- [Play Framework](https://www.playframework.com/). The High Velocity Web Framework For Java and Scala. Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture.
 
 **Micronaut**
 

@@ -418,8 +418,17 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 	- [libGDX](https://libgdx.com/). libGDX is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, macOS, Android, your browser and iOS.
 - Kotlin
 	- [Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html) (2023) by JetBrains
+	- [Compose Multiplatform (CMP)](https://www.jetbrains.com/compose-multiplatform/). Build beautiful shared UIs for Android, iOS, desktop, and web that feel natural on every platform. It is a UI framework, built on top of KMP.
+	- [Korge](https://korge.org/). 2D game and app framework written in Kotlin. 
 - C++
 	- [Qt](https://www.qt.io/) (1995)
+	- [JUCE](https://juce.com/). JUCE is the most widely used framework for audio application and plug-in development. It is an open source C++ codebase that can be used to create standalone software on Windows, macOS, Linux, iOS and Android.
+	- [Cocos2d-x](https://www.cocos.com/en/cocos2d-x). Cocos2d-x has provided users with an open-source, stable, and easy-to-customize cross-platform game solution. The engine provides three programming language interfaces: C++, Lua, and JavaScript. Cross-platform support includes smartphones such as iOS, Android, and others, Windows, Mac, and other desktop operating systems, along with web browsers Chrome, Safari, IE, and other HTML5 browsers.
+	- [Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-with-cplusplus-in-unreal-engine). Unreal Engine is a 3D computer graphics game engine.
+- Rust
+	- [Dioxus](https://dioxuslabs.com/). Dioxus is the Rust framework for building fullstack web, desktop, and mobile apps.
+	- [Slint](https://slint.dev/). Design to Deploy. Seamlessly build elegant, modern, stylish, native GUIs for Embedded, Desktop, and Mobile.
+	- [egui](https://www.egui.rs/). an easy-to-use immediate mode GUI in Rust that runs on both web and native
 - Python
 	- [Qt](https://www.qt.io/) (1995) PyQt / PySide
 	- [Kivy](https://kivy.org/). Kivy has been built to be easy to use, cross-platform and fast. With a single codebase, you will be able to deploy apps on Windows, Linux, macOS, iOS and Android.
@@ -454,7 +463,15 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 	- [PyGObject (GTK)](https://pygobject.gnome.org/). PyGObject is a Python package which provides bindings for GObject based libraries such as GTK, GStreamer, WebKitGTK, GLib, GIO and many more. It supports Linux, Windows, and macOS.
 - C#
 	- [GtkSharp](https://www.mono-project.com/docs/gui/gtksharp/). Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully native graphical Gnome application development using the Mono and .Net development frameworks.
-- GTK ([C++, Go, Python, Rust and more](https://www.gtk.org/docs/language-bindings/))
+- C++
+	- [wxWidgets](https://wxwidgets.org/). wxWidgets is a C++ library that lets developers create applications for Windows, macOS, Linux and other platforms with a single code base.
+	- GTKmm. Official C++ bindings for GTK+.
+	- [FLTK (Fast Light Toolkit)](https://www.fltk.org/). LTK is a cross-platform C++ GUI toolkit for Linux, Windows, and macOS.
+	- [ImGui (Dear ImGui)](https://github.com/ocornut/imgui). Dear ImGui is a bloat-free graphical user interface library for C++.
+- Rust
+	- [iced](https://iced.rs/). A cross-platform GUI library for Rust focused on simplicity and type-safety.
+	- [gtk-rs](https://gtk-rs.org/). Unlocking the GNOME stack for Rust
+- GTK ([C++, Go, Python, Rust and more](https://www.gtk.org/docs/language-bindings/)). 
 
 ### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>Apple ecosystem
 
