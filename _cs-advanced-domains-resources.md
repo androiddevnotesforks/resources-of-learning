@@ -429,6 +429,10 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 	- [Dioxus](https://dioxuslabs.com/). Dioxus is the Rust framework for building fullstack web, desktop, and mobile apps.
 	- [Slint](https://slint.dev/). Design to Deploy. Seamlessly build elegant, modern, stylish, native GUIs for Embedded, Desktop, and Mobile.
 	- [egui](https://www.egui.rs/). an easy-to-use immediate mode GUI in Rust that runs on both web and native
+- Go
+	- [Fyne](https://fyne.io/). An easy to learn toolkit for creating graphical apps for desktop, mobile and web.
+	- [Gio](https://gioui.org/). Cross-Platform GUI for Go.
+	- [QT for Go](https://github.com/therecipe/qt)
 - Python
 	- [Qt](https://www.qt.io/) (1995) PyQt / PySide
 	- [Kivy](https://kivy.org/). Kivy has been built to be easy to use, cross-platform and fast. With a single codebase, you will be able to deploy apps on Windows, Linux, macOS, iOS and Android.
@@ -471,6 +475,9 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 - Rust
 	- [iced](https://iced.rs/). A cross-platform GUI library for Rust focused on simplicity and type-safety.
 	- [gtk-rs](https://gtk-rs.org/). Unlocking the GNOME stack for Rust
+- Go
+	- [Wails](https://wails.io/). Build beautiful cross-platform applications using Go.
+	- [Lorca](https://github.com/zserge/lorca). Build cross-platform modern desktop apps in Go + HTML5.
 - GTK ([C++, Go, Python, Rust and more](https://www.gtk.org/docs/language-bindings/)). 
 
 ### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>Apple ecosystem
