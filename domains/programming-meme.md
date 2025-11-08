@@ -71,6 +71,25 @@
 
 <img src="../assets/images/memes/tutorials-i-saved.png" alt="tutorials-i-saved.png" width="600px" />
 
+### Searching for a solution instead of reading the docs
+
+<img src="../assets/images/memes/searching-for-a-solution-instead-of-reading-the-docs.jpg" alt="searching-for-a-solution-instead-of-reading-the-docs.jpg" width="600px" />
+
+<img src="../assets/images/memes/searching-for-a-solution-instead-of-reading-the-docs-2.webp" alt="searching-for-a-solution-instead-of-reading-the-docs-2.webp" width="600px" />
+
+<img src="../assets/images/memes/documentation-vs-stack-overflow.jpg" alt="documentation-vs-stack-overflow.jpg" width="600px" />
+
+<img src="../assets/images/memes/documentation-vs-stack-overflow-2.jpg" alt="documentation-vs-stack-overflow-2.jpg" width="600px" />
+
+### Debugging instead of reading the docs
+
+
+<img src="../assets/images/memes/debugging-instead-of-reading-docs.jpg" alt="debugging-instead-of-reading-docs.jpg" width="600px" />
+
+### Setup of Linus Torvalds
+
+<img src="../assets/images/memes/setup-of-Linus-Torvalds.jpeg" alt="setup-of-Linus-Torvalds.jpeg" width="600px" />
+
 
 ## Work
 
@@ -101,6 +120,10 @@
 ### The technical interview vs the actual job
 
 <img src="../assets/images/memes/the-technical-interview-vs-the-actual-job.jpg" alt="the-technical-interview-vs-the-actual-job.jpg" width="600px" />
+
+### Has a buddy that works at the company
+
+<img src="../assets/images/memes/has-a-buddy-that-works-at-the-company.jpeg" alt="has-a-buddy-that-works-at-the-company.jpeg" width="600px" />
 
 ### Count lines of code
 
@@ -160,3 +183,6 @@
 
 <img src="../assets/images/memes/i-love-vibe-coding.webp" alt="i-love-vibe-coding.webp" width="600px" />
 
+### You are absolutely right
+
+<img src="../assets/images/memes/you-are-absolutely-right.jpeg" alt="you-are-absolutely-right.jpeg" width="600px" />
