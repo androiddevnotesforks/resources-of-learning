@@ -90,6 +90,10 @@
 
 <img src="../assets/images/memes/setup-of-Linus-Torvalds.jpeg" alt="setup-of-Linus-Torvalds.jpeg" width="600px" />
 
+### Yeah I major in computer science
+
+<img src="../assets/images/memes/i-major-in-computer-science.jpeg" alt="i-major-in-computer-science.jpeg" width="600px" />
+
 
 ## Work
 
@@ -141,6 +145,13 @@
 
 <img src="../assets/images/memes/developer-side-projects.jpg" alt="developer-side-projects.jpg" width="600px" />
 
+## IT
+
+### IT infrastructure
+
+<img src="../assets/images/memes/modern-digital-infrastructure.webp" alt="modern-digital-infrastructure.webp" width="600px" />
+
+<img src="../assets/images/memes/it-infrastructure-and-unpaid-devs.jpeg" alt="it-infrastructure-and-unpaid-devs.jpeg" width="600px" />
 
 ## Programming languages
 
@@ -186,3 +197,14 @@
 ### You are absolutely right
 
 <img src="../assets/images/memes/you-are-absolutely-right.jpeg" alt="you-are-absolutely-right.jpeg" width="600px" />
+
+### Programmers worried about AI
+
+<img src="../assets/images/memes/programmers-worried-about-chatgpt.webp" alt="programmers-worried-about-chatgpt.webp" width="600px" />
+
+<img src="../assets/images/memes/compilers-took-my-job.webp" alt="compilers-took-my-job.webp" width="600px" />
+
+### Software development is not just writing code
+
+<img src="../assets/images/memes/software-development-is-not-just-writing-code.jpeg" alt="software-development-is-not-just-writing-code.jpeg" width="600px" />
+
