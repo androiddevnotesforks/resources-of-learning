@@ -83,7 +83,6 @@
 
 ### Debugging instead of reading the docs
 
-
 <img src="../assets/images/memes/debugging-instead-of-reading-docs.jpg" alt="debugging-instead-of-reading-docs.jpg" width="600px" />
 
 ### Setup of Linus Torvalds
@@ -93,6 +92,11 @@
 ### Yeah I major in computer science
 
 <img src="../assets/images/memes/i-major-in-computer-science.jpeg" alt="i-major-in-computer-science.jpeg" width="600px" />
+
+### Fix a typo in the documentation
+
+<img src="../assets/images/memes/when-you-fix-a-typo-in-the-documentation.png" alt="when-you-fix-a-typo-in-the-documentation.png" width="600px" />
+
 
 
 ## Work
@@ -153,6 +157,10 @@
 
 <img src="../assets/images/memes/it-infrastructure-and-unpaid-devs.jpeg" alt="it-infrastructure-and-unpaid-devs.jpeg" width="600px" />
 
+<img src="../assets/images/memes/digital-infrastructure-and-ai.png" alt="digital-infrastructure-and-ai.png" width="600px" />
+
+
+
 ## Programming languages
 
 ### Most loved language
@@ -207,4 +215,13 @@
 ### Software development is not just writing code
 
 <img src="../assets/images/memes/software-development-is-not-just-writing-code.jpeg" alt="software-development-is-not-just-writing-code.jpeg" width="600px" />
+
+### Deep Learning
+
+<img src="../assets/images/memes/deep-learning.jpg" alt="deep-learning.jpg" width="600px" />
+
+### Generative AI
+
+<img src="../assets/images/memes/generative-ai.jpeg" alt="generative-ai.jpeg" width="600px" />
+
 
