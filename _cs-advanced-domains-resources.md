@@ -255,11 +255,23 @@ Apache Tomcat
 - Professional Android 4 Application Development by Reto Meier
 - Learning Android by Marko Gargenta
 - Programming Android: Java Programming for the New Generation of Mobile Devices by Zigurd Mednieks, Laird Dornin, G. Blake Meike, Masumi Nakamura
+- Android Programming for Beginners: Build in-depth, full-featured Android apps starting from zero programming experience (3rd, 2021) by John Horton
+- Clean Android Architecture: Take a layered approach to writing clean, testable, and decoupled Android applications (2022) by Alexandru Dumbravan
+- Inside the Android OS: Building, Customizing, Managing and Operating Android System Services (2021) by G. Meike (Author), Lawrence Schiefer 
+- Android System Programming: Porting, customizing, and debugging Android HAL (2017) by Roger Ye
 
 Android in Kotlin
 
 - [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
 - Kotlin for Android Developers by Antonio Leiva
+- How to Build Android Applications with Kotlin: A hands-on guide to developing, testing, and publishing production-grade Android 16 apps (3rd, 2025) by Alex Forrester, Eran Boudjnah, Alexandru Dumbravan 
+- Programming Android with Kotlin: Achieving Structured Concurrency with Coroutines (2022) by Pierre-Olivier Laurence, Amanda Hinchman-Dominguez, Mike Dunn
+- Kickstart Modern Android Development with Jetpack and Kotlin: Enhance your applications by integrating Jetpack and applying modern app architectural concepts (2022) by Catalin Ghita
+- Thriving in Android Development Using Kotlin: A project-based guide to using the latest Android features for developing production-grade apps (2024) by Gema Socorro Rodríguez
+- Android UI Development with Jetpack Compose: Bring declarative and native UI to life quickly and easily on Android using Jetpack Compose and Kotlin (2nd, 2023) by Thomas Künneth
+- Kotlin and Android Development featuring Jetpack: Build Better, Safer Android Apps (2021) by Michael Fazio
+- Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose (2024) by Harun Wangereka
+- Modern Android 13 Development Cookbook: Over 70 recipes to solve Android development issues and create better apps with Kotlin and Jetpack Compose (2023) by Madona S. Wambua
 
 Android Studio
 
@@ -382,13 +394,14 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 </details>
 
 - JavaScript/TypeScript
+	- WebView. Use WebView to deliver a web application or a web page as a part of a client application. 
 	- [React Native (RN)](https://reactnative.dev/) (2015) by Meta
 	- [Tauri](https://tauri.app/) (2020)
 	- [Ionic](https://ionicframework.com/) (2013)
 	- [Progressive Web Apps (PWA)](https://web.dev/explore/progressive-web-apps) (2016) by Google
 	- [Apache Cordova](https://cordova.apache.org/) / PhoneGap (2009)
 	- [Quasar Framework](https://quasar.dev/) (2015)
-	- WebView. Use WebView to deliver a web application or a web page as a part of a client application. 
+	- [Framework7](https://framework7.io/). Build full featured iOS, Android & Desktop apps. It's a free and open source framework to develop mobile, desktop or web apps with native look and feel.
 - Dart
 	- [Flutter](https://flutter.dev/) (2017) by Google
 - C#
@@ -396,14 +409,21 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 	- [Unity](https://unity.com/) (2005)
 	- [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui) (Multi-platform App UI) (2022) by Microsoft
 	- [Avalonia](https://avaloniaui.net/) (2013)
+	- [Uno Platform](https://platform.uno/) (2018). Uno Platform is the most complete cross-platform .NET UI framework for Web, Mobile, Desktop and Embedded.
+	- [Eto.Forms](https://github.com/picoe/Eto) (2018). Cross platform GUI framework for desktop and mobile applications in .NET
 - Java
 	- [JavaFX](https://openjfx.io/) (2008) by Oracle
+	- [Vaadin Flow](https://vaadin.com/flow). Vaadin Flow is an open-source full-stack Java UI framework and component set that lets you build data-rich, business web applications without writing HTML or JavaScript yourself.
+	- [Codename One](https://www.codenameone.com/). Make Your Java/Kotlin Code Native Everywhere. An open-source mobile first toolkit for building high quality, cross-platform native apps for Android, iOS, Desktop & Web.
+	- [libGDX](https://libgdx.com/). libGDX is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, macOS, Android, your browser and iOS.
 - Kotlin
 	- [Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html) (2023) by JetBrains
 - C++
 	- [Qt](https://www.qt.io/) (1995)
 - Python
-	- [Qt](https://www.qt.io/) (1995)
+	- [Qt](https://www.qt.io/) (1995) PyQt / PySide
+	- [Kivy](https://kivy.org/). Kivy has been built to be easy to use, cross-platform and fast. With a single codebase, you will be able to deploy apps on Windows, Linux, macOS, iOS and Android.
+	- [BeeWare](https://beeware.org/) Write once. Deploy everywhere. Write your apps in Python and release them on iOS, Android, Windows, MacOS, Linux, Web, and tvOS using rich, native user interfaces.
 
 ### Mobile cross-platform (Android, iOS)
 
@@ -411,13 +431,29 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 	- [RubyMotion](http://www.rubymotion.com/) (2012)
 - JavaScript/TypeScript
 	- [NativeScript](https://nativescript.org/) (2014)
+	- [Meteor.js](https://www.meteor.com/). Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. 
+	- [Capacitor](https://capacitorjs.com/). A cross-platform native runtime for web apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS.
+- Java
+	- Gluon Mobile. Gluon Mobile is to ensure that developers can create high performance, great looking, and cloud connected mobile apps from a single Java code base.
 
 ### Desktop cross-platform (Windows, macOS, and Linux)
 
 - JavaScript/TypeScript
 	- [Electron](https://electronjs.org/) (2013)
+	- [NW.js](https://nwjs.io/). NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.
+	- [Neutralino](https://neutralino.js.org/). Build lightweight cross-platform desktop apps with JavaScript, HTML, and CSS
 - Java
 	- [Swing](https://docs.oracle.com/javase/tutorial/uiswing/index.html) by Oracle
+	- SWT (Standard Widget Toolkit)
+	- [Griffon](http://griffon-framework.org/). Griffon is desktop application development platform for the JVM.Inspired by Grails.
+- Python
+	- PyQt / PySide
+	- [Tkinter](https://docs.python.org/3/library/tkinter.html). The tkinter package (“Tk interface”) is the standard Python interface to the Tcl/Tk GUI toolkit. Both Tk and tkinter are available on most Unix platforms, including macOS, as well as on Windows systems.
+	- [wxPython](https://wxpython.org/index.html). This website is all about wxPython, the cross-platform GUI toolkit for the Python language. With wxPython software developers can create truly native user interfaces for their Python applications, that run with little or no modifications on Windows, Macs and Linux or other unix-like systems.
+	- [Dear PyGui.](https://github.com/hoffstadt/DearPyGui) A modern, fast and powerful GUI framework for Python.
+	- [PyGObject (GTK)](https://pygobject.gnome.org/). PyGObject is a Python package which provides bindings for GObject based libraries such as GTK, GStreamer, WebKitGTK, GLib, GIO and many more. It supports Linux, Windows, and macOS.
+- C#
+	- [GtkSharp](https://www.mono-project.com/docs/gui/gtksharp/). Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully native graphical Gnome application development using the Mono and .Net development frameworks.
 - GTK ([C++, Go, Python, Rust and more](https://www.gtk.org/docs/language-bindings/))
 
 ### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>Apple ecosystem
@@ -1560,7 +1596,7 @@ Data Science
 - Python Data Science Handbook: Essential Tools for Working with Data (2nd, 2022) by Jake VanderPlas
 - Dive Into Data Science: Use Python To Tackle Your Toughest Business Challenges (2023) by Bradford Tuckfield 
 - Learning Data Science: Data Wrangling, Exploration, Visualization, and Modeling with Python (2023) by Sam Lau, Joseph Gonzalez, Deborah Nolan
-- Build a Career in Data Science (2020) Emily Robinson (Author), Jacqueline Nolis
+- Build a Career in Data Science (2020) Emily Robinson, Jacqueline Nolis
 - Python for Data Science: A Hands-On Introduction (2022) by Yuli Vasiliev
 - Data Science: The Hard Parts: Techniques for Excelling at Data Science (2023) by Daniel Vaughan
 - Analytical Skills for AI and Data Science: Building Skills for an AI-Driven Enterprise (2020) by Daniel Vaughan

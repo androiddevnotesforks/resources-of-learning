@@ -68,6 +68,7 @@ See [Java Resources](../directions/java-resources.md)
 - Fundamental Kotlin by Miloš Vasić [4.23, 39]
 - Kotlin from Scratch: A Project-Based Introduction for the Intrepid Programmer (2025) by Faisal Islam
 - Kotlin Essentials (Kotlin for Developers) by Marcin Moskała
+- Kotlin Programming: The Big Nerd Ranch Guide (2nd, 2021) by David Greenhalgh, Josh Skeen, Andrew Bailey
 
 Advanced
 
@@ -81,6 +82,7 @@ Advanced
 - Kotlin Coroutines: Deep Dive (Kotlin for Developers) by Marcin Moskała
 - Advanced Kotlin (Kotlin for Developers) by Marcin Moskala
 - Effective Kotlin: Best Practices (Kotlin for Developers) by Marcin Moskala
+- Functional Programming in Kotlin (2021) by Marco Vermeulen, Rúnar Bjarnason, Paul Chiusano
 
 Directions
 
