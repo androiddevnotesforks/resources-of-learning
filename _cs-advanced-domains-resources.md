@@ -11,9 +11,11 @@
 - Part I: Developments
 	- <a name="webdev_c" href="#webdev_t">Web Development</a>
 	- <a name="gamedev_c" href="#gamedev_t">Game Development</a>
-	- Mobile Application Development
-	- Desktop Application Development
-	- Embedded Development
+	- <a name="mobile_app_dev_c" href="#mobile_app_dev_t">Mobile Application Development</a>
+	- <a name="desktop_app_dev_c" href="#desktop_app_dev_t">Desktop Application Development</a>
+	- <a name="cross_platform_app_dev_c" href="#cross_platform_app_dev_t">Cross-Platform Application Development</a>
+	- <a name="plugins_or_extensions_dev_c" href="#plugins_or_extensions_dev_t">Plugins or Extensions Development</a>
+	- <a name="embedded_dev_c" href="#embedded_dev_t">Embedded Development</a>
 	- <a name="audio_and_video_dev_c" href="#audio_and_video_dev_t">Audio and Video Development</a>
 - Part II: Distributed Systems & Middlewares
 	- <a name="dbms_c" href="#dbms_t">Database Systems and Data Storage</a>
@@ -237,14 +239,216 @@ Apache Tomcat
 - Game Programming Patterns by Robert Nystrom
 - BASIC Computer Games by David H. Ahl
 
+<br>
+<h2><a name="mobile_app_dev_t" href="#mobile_app_dev_c">Mobile Application Development</a></h2>
+<br>
 
-## Embedded Development
+### <img src="/assets/icon/programming-languages/Android.svg" width="24px"/>Android App Development
+
+/ˈandrɔɪd/
+
+- [Android Documentation - doc](https://developer.android.com/docs)
+- Android Programming: The Big Nerd Ranch Guide by Brian Hardy, Bill Phillips
+- Head First Android Development: A Brain-Friendly Guide by DAVID GRIFFITHS and Dawn Griffiths
+- The Busy Coder's Guide to Advanced Android Development by Mark Murphy
+- Android Programming: Pushing the Limits by Erik Hellman
+- Professional Android 4 Application Development by Reto Meier
+- Learning Android by Marko Gargenta
+- Programming Android: Java Programming for the New Generation of Mobile Devices by Zigurd Mednieks, Laird Dornin, G. Blake Meike, Masumi Nakamura
+
+Android in Kotlin
+
+- [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+
+Android Studio
+
+- [Android Studio User Guide](https://developer.android.com/studio/intro)
+
+### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>iOS App Development
+
+iOS Programming
+
+- **iPhone Programming** (2010) by Joe Conway, Aaron Hillegass [4.19, 947]
+- Building iPhone Apps with HTML, CSS, and JavaScript: Making App Store Apps Without Objective-C or Cocoa (2010) by Jonathan Stark [3.94, 180]
+- Head First iPhone Development 1st Edition, Kindle Edition (2011) by Dan Pilone, Tracey Pilone [3.8, 120]
+- **iOS Programming: The Big Nerd Ranch Guide** (7th, 2020) by Christian Keur [4.23, 107]
+- Pro iPhone Development with SwiftUI: Design and Manage Top-Quality Apps (4th, 2023) by Wallace Wang
+- Beginning iPhone Development with SwiftUI: Exploring the iOS SDK (7th, 2023) by Wallace Wang 
+- Pro Objective-C Design Patterns for iOS (2011) by Carlo Chung
+- [iOS Example](https://iosexample.com/)
+- Matt Neuburg 
+	- iOS 15 Programming Fundamentals with Swift: Swift, Xcode, and Cocoa Basics (2021) by Matt Neuburg
+	- Programming iOS 14: Dive Deep into Views, View Controllers, and Frameworks (2020) by Matt Neuburg 
+- iOS 18
+	- Mastering iOS 18 Development: Take your iOS development experience to the next level with iOS, Xcode, Swift, and SwiftUI (2024) by Avi Tsadok
+	- iOS 18 Programming for Beginners: Learn iOS development with Swift 6, Xcode 16, and iOS 18 - your path to App Store success (9th, 2024) by Ahmad Sahar
+	- Beginning iOS 18 Programming with Swift and UIKit: Learn UIKit and Swift by Building a Real World iOS App. Fully supports Xcode 16, Swift 6, and iOS 18 (2024) by Simon Ng
+- iOS 12
+	- IOS 12 Programming for Beginners: An Introductory Guide to IOS App Development with Swift 4.2 and Xcode 10 (3rd, 2018) by Craig Clayton
+	- Swift Programming in easy steps: Develop iOS apps - covers iOS 12 and Swift 5 (2019) by Darryl Bartlett
+- The Ultimate iOS Interview Playbook: Conquer Swift, frameworks, design patterns, and app architecture for your dream job (2023) by Avi Tsadok
+- iOS Development at Scale: App Architecture and Design Patterns for Mobile Engineers (2023) by Eric Vennaro
+- iOS Unit Testing by Example: XCTest Tips and Techniques Using Swift (2020) by Jon Reid [4.48, 42]
+
+iOS Courses
+
+- [CS193p - Developing Apps for iOS](https://cs193p.sites.stanford.edu/) by Stanford University
+- [Kodeco](https://www.kodeco.com/). Learn iOS, Android & Flutter.
+
+iOS Resources
+
+- [trip-to-iOS](https://github.com/Aufree/trip-to-iOS). iOS 学习资料整理
+
+
+<br>
+<h2><a name="desktop_app_dev_t" href="#desktop_app_dev_c">Desktop Application Development</a></h2>
+<br>
+
+### <img src="/assets/icon/programming-languages/Windows.svg" width="24px"/>Windows Application Development
+
+- `C#` + [Windows Forms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/) or [WPF (Windows Presentation Foundation)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
+- `C++` + [Win32 API](https://learn.microsoft.com/en-us/windows/win32/api/)、[MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications) or Qt
+- [Visual Basic .NET](https://learn.microsoft.com/en-us/dotnet/visual-basic/)
+
+### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>macOS Application Development
+
+macOS Programming
+
+- Cocoa Programming for Mac OS X (3rd, 2008) by Aaron Hillegass [3.97, 574]
+- macOS Programming for Absolute Beginners: Developing Apps Using Swift and Xcode (2017) by Wallace Wang 
+- macOS App Development: The SwiftUI Way (2024) by Grace Huang
+- Interprocess Communication with macOS: Apple IPC Methods (2021) by Hem Dutt
+- Mastering macOS Programming: Hands-on guide to macOS Sierra Application Development (2017) by Stuart Grimshaw 
+- Exploring macOS: A Journey Through the Mac Ecosystem (2023) by Sagar Rastogi and Jasdeep Singh
+- The macOS User Administration Guide: A practical guide to implementing, managing, and optimizing macOS Big Sur features and tools (2021) by Herta Nava 
+- Mac OS X For Unix Geeks: Demistifying the Geekier Side of Mac OS X (2008) by Ernest E. Rothman , Brian Jepson
+- MAC OS X Internals: A Systems Approach (2006) by Amit Singh 
+
+Command Line & Terminal
+
+- The macOS Command Line and Terminal Handbook: A Comprehensive Guide to Zsh and Scripting for Beginners Through Advanced Users (2025) by John Curlee
+- Tweak Your Mac Terminal: Command Line macOS (2020) by Daniel Platt
+- Learning Unix for OS X: Going Deep With the Terminal and Shell (2nd, 2016) by Dave Taylor 
+- Macintosh Terminal Pocket Guide: Take Command of Your Mac (2012) by Daniel J. Barrett
+- The Mac OS X Command Line: Unix Under the Hood (2005) by Kirk McElhearn
+- The macOS Command Line and Terminal Handbook: A Comprehensive Guide to Zsh and Scripting for Beginners Through Advanced Users (2025) by John N Curlee
+
+AppleScript
+
+- Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X (3rd, 2010) by Hamish Sanderson , Hanaan Rosenthal
+- AppleScript: The Definitive Guide (2nd, 2006) by Matt Neuburg
+- Apple Training Series: AppleScript 1-2-3 (2009) by Sal Soghoian, Bill Cheeseman
+- AppleScript in a Nutshell: A Desktop Quick Reference (2001) by Bruce W. Perry
+
+
+### <img src="/assets/icon/programming-languages/Linux.svg" width="24px"/>Linux Application Development
+
+
+- C/C++
+  - GTK+
+  - Qt
+- Python
+  - GTK+
+  - PyQt/PySide
+  - Tkinter
+
+<br>
+
+<h2><a name="cross_platform_app_dev_t" href="#cross_platform_app_dev_c">Cross-Platform Application Development</a></h2>
+
+<br>
+
+
+### One codebase for all platforms (web, mobile, desktop)
+
+<details>
+<summary>跨平台技术选型</summary>
+
+Flutter 和 RN 选一个，KMP 不要选，目前不成熟，生态也不全，用了就是当小白鼠；RN 可以热更新，但是使用的组件还是原生组件，一致性不如 Flutter；而且也要结合你的项目内容，如果有一些比较吃性能的功能，还是得用原生开发。
+
+跨平台还是 flutter 吧，生态比较强。
+
+跨平台应用开发语言里面和 Java 语法最像的还是 Dart ，所以选 Flutter 。
+
+Kotlin Multiplatform (KMP) 似乎还不是很成熟。
+
+其实对于 java 来说，转 kotlin 用 kmp 那一套最简单，但是 kmp 现在还是不温不火的，生态也一般。综合来看，还是得 flutter。
+
+我个人也推荐 flutter ，不过现在有 AI 的话，其实原生 swift 和 kotlin 应该学习成本也不大。
+
+以前我肯定会推荐 Flutter ，RN ，但是现在我只推荐原生，因为跨平台你无论怎么搞，天花板之上都是原生，这个天花板总有一天会让你痛不欲生，但是原生则不存在这个问题。跨平台技术还有一个致命的问题是，如果原生 api 更新了，那么跨平台技术需要时间适配，这个适配的时间你只能等，你吃的永远是二手的饭。
+
+</details>
+
+- JavaScript/TypeScript
+	- [React Native (RN)](https://reactnative.dev/) (2015) by Meta
+	- [Tauri](https://tauri.app/) (2020)
+	- [Ionic](https://ionicframework.com/) (2013)
+	- [Progressive Web Apps (PWA)](https://web.dev/explore/progressive-web-apps) (2016) by Google
+	- [Apache Cordova](https://cordova.apache.org/) / PhoneGap (2009)
+	- [Quasar Framework](https://quasar.dev/) (2015)
+	- WebView. Use WebView to deliver a web application or a web page as a part of a client application. 
+- Dart
+	- [Flutter](https://flutter.dev/) (2017) by Google
+- C#
+	- [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin) (2011)
+	- [Unity](https://unity.com/) (2005)
+	- [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui) (Multi-platform App UI) (2022) by Microsoft
+	- [Avalonia](https://avaloniaui.net/) (2013)
+- Java
+	- [JavaFX](https://openjfx.io/) (2008) by Oracle
+- Kotlin
+	- [Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html) (2023) by JetBrains
+- C++
+	- [Qt](https://www.qt.io/) (1995)
+- Python
+	- [Qt](https://www.qt.io/) (1995)
+
+### Mobile cross-platform (Android, iOS)
+
+- Ruby
+	- [RubyMotion](http://www.rubymotion.com/) (2012)
+- JavaScript/TypeScript
+	- [NativeScript](https://nativescript.org/) (2014)
+
+### Desktop cross-platform (Windows, macOS, and Linux)
+
+- JavaScript/TypeScript
+	- [Electron](https://electronjs.org/) (2013)
+- Java
+	- [Swing](https://docs.oracle.com/javase/tutorial/uiswing/index.html) by Oracle
+- GTK ([C++, Go, Python, Rust and more](https://www.gtk.org/docs/language-bindings/))
+
+### <img src="/assets/icon/programming-languages/Apple.svg" width="24px"/>Apple ecosystem
+
+- Apple macOS and iOS System Administration: Integrating and Supporting iPhones, iPads, and MacBooks (2020) by Drew Smith
+- Head First iPhone and iPad Development: A Learner's Guide to Creating Objective-C Applications for the iPhone and iPad (2014) by Dan Pilone and Tracey Pilone [3.78, 120]
+- iOS and macOS Performance Tuning: Cocoa, Cocoa Touch, Objective-C, and Swift (2017) by Marcel Weiher 
+- Mac OS X and iOS Internals: To the Apple's Core (2012) by Jonathan Levin
+- Learn Xcode Tools for Mac OS X and iPhone Development (2009) by Ian Piper 
+- Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks (2012) by Kazuki Sakamoto, Tomohiko Furumoto
+
+<br>
+
+<h2><a name="plugins_or_extensions_dev_c" href="#plugins_or_extensions_dev_t">Plugins or Extensions Development</a></h2>
+<br>
+
+Google Chrome
+
+- [Chrome Extensions - chrome for developers](https://developer.chrome.com/docs/extensions)
+- [Chrome Extensions samples](https://github.com/GoogleChrome/chrome-extensions-samples)
+
+
+<br>
+<h2><a name="embedded_dev_t" href="#embedded_dev_c">Embedded Development</a></h2>
+<br>
 
 - Making Embedded Systems: Design Patterns for Great Software (2nd, 2024) by Elecia White
 - Applied Embedded Electronics: Design Essentials for Robust Systems (2023) by Jerry Twomey
 - Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools (2020) by Brian Amos
 - Mastering Embedded Linux Programming: Create fast and reliable embedded solutions with Linux 5.4 and the Yocto Project 3.1 (3rd, 2021) by Frank Vasquez, Chris Simmonds
 - Bare-Metal Embedded C Programming: Develop high-performance embedded systems with C for Arm microcontrollers (2024) by Israel Gbati
+
 
 <br>
 
