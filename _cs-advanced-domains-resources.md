@@ -259,6 +259,7 @@ Apache Tomcat
 Android in Kotlin
 
 - [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+- Kotlin for Android Developers by Antonio Leiva
 
 Android Studio
 
@@ -430,10 +431,10 @@ Kotlin Multiplatform (KMP) 似乎还不是很成熟。
 
 <br>
 
-<h2><a name="plugins_or_extensions_dev_c" href="#plugins_or_extensions_dev_t">Plugins or Extensions Development</a></h2>
+<h2><a name="plugins_or_extensions_dev_t" href="#plugins_or_extensions_dev_c">Plugins or Extensions Development</a></h2>
 <br>
 
-Google Chrome
+Google Chrome Extensions
 
 - [Chrome Extensions - chrome for developers](https://developer.chrome.com/docs/extensions)
 - [Chrome Extensions samples](https://github.com/GoogleChrome/chrome-extensions-samples)

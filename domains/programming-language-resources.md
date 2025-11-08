@@ -82,10 +82,6 @@ Advanced
 - Advanced Kotlin (Kotlin for Developers) by Marcin Moskala
 - Effective Kotlin: Best Practices (Kotlin for Developers) by Marcin Moskala
 
-Kotlin for Android
-
-- Kotlin for Android Developers by Antonio Leiva
-
 Directions
 
 >Kotlin is a modern, concise, and expressive programming language developed by JetBrains. It's best known for its first-class support for Android development, but it's also used in backend services, cross-platform mobile apps, and modern JVM-based applications.
